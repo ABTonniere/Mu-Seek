@@ -25,7 +25,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/app/app.Main.css"
+              "src/app/app.Main.css",
+              "src/assets/css/global.css"
             ],
             "scripts": [
               "src/js/scripts.js"
