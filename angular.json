@@ -24,7 +24,7 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
+            "styles": [//
               "src/app/app.Main.css",
               "src/assets/css/global.css"
             ],
