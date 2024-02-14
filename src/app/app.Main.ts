@@ -12,4 +12,3 @@ export class AppComponent {
   title = 'museek';
 }
 
-//
