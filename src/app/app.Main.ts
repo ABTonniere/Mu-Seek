@@ -1,8 +1,13 @@
-import { ApplicationConfig } from '@angular/core';
-import { provideRouter } from '@angular/router';
+import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
 
-import { routes } from './app.routes';
-
-export const appMain: ApplicationConfig = {
-  providers: [provideRouter(routes)]
-};
+@Component({
+  selector: 'appMain',
+  standalone: true,
+  imports: [RouterOutlet],
+  templateUrl: './app.Main.html',
+  styleUrl: './app.Main.css'
+})
+export class AppComponent {
+  title = 'museek';
+}
