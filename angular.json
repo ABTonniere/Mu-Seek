@@ -29,7 +29,8 @@
               "src/assets/css/global.css"
             ],
             "scripts": [
-              "src/js/scripts.js"
+              "src/js/scripts.js",
+              "src/assets/js/global.js"
             ]
           },
           "configurations": {
