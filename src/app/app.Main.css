@@ -10995,7 +10995,7 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  text-shadow: 0 0 10px rgb(250, 157, 78);
+  text-shadow: 0 0 4px rgb(250, 157, 78);
 }
 .masthead h2, .masthead .h2 {
   max-width: 20rem;
