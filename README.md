@@ -1,27 +1,26 @@
-# Museek
+# Mu-Seek
+La musique proche de toi
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.3.
+ ## Angular
+ Ce projet à était générer avec [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
 
-## Development server
+### Development server
+Entrée la commande `ng serve` pour un serveur de développement. Naviguer à l'adresse `http://localhost:4200/`. L'application va automatiquement rechargé si un fichier source à était modifié.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Code scaffolding
+Entrée la commande `ng generate component component-name` pour générer un nouveau composant. Vous pouvez aussi utilisé `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Code scaffolding
+### Build
+Entrée la commande `ng build` pour construire l'application final. Ça construira les artefacts qui vont être stocké dans le dossier `dist/`.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Running unit tests
 
-## Build
+Entrée la commande `ng test` pour commencer les tests unitaire via [Karma](https://karma-runner.github.io).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Running end-to-end tests
 
-## Running unit tests
+Entrée la commande `ng e2e` pour executer les tests end-to-end via une plateforme de votre choix. Pour utilisé cette commande, vous avez besoin d'ajouter un packet qui implementes de la capacité de réaliser de tels tests.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Further help
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Pour avoir plus d'informations à propos Angular CLI utiliser `ng help` ou allez vérifier la page [Survole des commande de référence d'Angular CLI](https://angular.io/cli).
