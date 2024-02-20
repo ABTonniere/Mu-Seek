@@ -1,0 +1,12 @@
+.jumbotron {
+  border: 1px solid black;
+  border-radius: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2vw;
+  background-color: #edd382;
+  padding: 2vw;
+  box-sizing: border-box;
+}
