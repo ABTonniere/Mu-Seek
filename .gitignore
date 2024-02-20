@@ -1,32 +1,110 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+# System files
+.DS_Store
+Thumbs.db
+
+# Prerequisites
+*.d
+
+###################
+# Compiled source #
+###################
+# # Precompiled Headers
+*.gch
+*.pch
+
+# # Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# # Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# # Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# # Executables
+*.exe
+*.out
+*.app
+*.class
+*.com
+
+# # LaTeX
+*.aux
+*.toc
+*.out
+
 # Compiled output
 /dist
 /tmp
 /out-tsc
 /bazel-out
 
+############
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+######################
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+######################
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+##########
+# Autres #
+##########
+
+# # Fortran module files
+*.mod
+*.smod
+
+# # IDEs and editors
+.idea/
+.vscode/
+.history/
+.project
+.classpath
+.c9/
+.settings/
+*.sublime-workspace
+*.launch
+*.swp
+
 # Node
 /node_modules
 npm-debug.log
 yarn-error.log
-
-# IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
-
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
 
 # Miscellaneous
 /.angular/cache
@@ -37,6 +115,8 @@ yarn-error.log
 testem.log
 /typings
 
-# System files
-.DS_Store
-Thumbs.db
+# # Directories
+bin/
+obj/
+*/docs/Doxygen/html/
+*/docs/html/
