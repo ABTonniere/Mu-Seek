@@ -26,11 +26,13 @@
             ],
             "styles": [
               "src/app/app.Main.css",
-              "src/assets/css/global.css"
+              "src/assets/css/global.css",
+              "node_modules/leaflet/dist/leaflet.css"
             ],
             "scripts": [
               "src/js/scripts.js",
-              "src/assets/js/global.js"
+              "src/assets/js/global.js",
+              "node_modules/leaflet/dist/leaflet.js"
             ]
           },
           "configurations": {
