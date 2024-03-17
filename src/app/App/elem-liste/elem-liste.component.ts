@@ -1,4 +1,4 @@
-import {Component, input, Input} from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-elem-liste',
@@ -6,7 +6,7 @@ import {Component, input, Input} from '@angular/core';
   styleUrl: './elem-liste.component.css'
 })
 export class ElemListeComponent {
-  titre: string = "Hello World !";
+  @Input() titre: string = "Hello World !";
   contenu: string = "Lorem ipsum dolor sit amet, consectekefhbsdjkffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffflghds<lfhskjfkysrjfyeufysfiyseiufhsdjifghdsfidfisGHIEGFquipsfhqsufgqsjifgqsfuygqfyuqstgfsuyqgfqsyufgqsuygftur adipiscing elit. Nulla ac purus nec nunc tincidunt aliquam"
   modifierValeur() {
     this.titre = 'Learn More';
