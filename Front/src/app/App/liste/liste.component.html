@@ -1,5 +1,5 @@
 <div class="grid-container" style="grid-auto-flow: row;">
-  <app-elem-liste></app-elem-liste>
-  <app-elem-liste></app-elem-liste>
-  <app-elem-liste></app-elem-liste>
+  <ng-container *ngFor="let item of items">
+    <app-elem-liste [titre]="item.titre" [description]="item.description" [date]="item.date" [lieu]="item.lieu"></app-elem-liste>
+  </ng-container>
 </div>
