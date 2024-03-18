@@ -1,0 +1,24 @@
+.jumbotron {
+  border: 1px solid black;
+  border-radius: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 2vw auto;
+  background-color: #edd382;
+  padding: 1vw;
+  box-sizing: border-box;
+  width: 90vw;
+  overflow: auto;
+}
+
+img {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+
+p {
+  word-wrap: break-word;
+  color: black;
+}
