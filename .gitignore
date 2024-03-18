@@ -102,12 +102,12 @@ Thumbs.db
 *.swp
 
 # Node
-/node_modules
+node_modules/
 npm-debug.log
 yarn-error.log
 
 # Miscellaneous
-/.angular/cache
+/Front/.angular/cache
 .sass-cache/
 /connect.lock
 /coverage
