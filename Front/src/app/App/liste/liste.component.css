@@ -5,7 +5,6 @@
   top: 0;
   width: 25vw; /* Ajustez la largeur selon vos besoins */
   height: 100%;
-  margin-right: 0.5vw;
   background-color: transparent; /* Ajustez la couleur de fond selon vos besoins */
   overflow-y: scroll; /* Ajoutez une barre de défilement si le contenu est trop long */
   z-index: 1; /* Assurez-vous que le panneau est au-dessus des autres éléments */
