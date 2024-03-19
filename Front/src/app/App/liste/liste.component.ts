@@ -1,4 +1,4 @@
-import {Component, ComponentFactoryResolver, Output, ViewChild, ViewContainerRef} from '@angular/core';
+import {Component,} from '@angular/core';
 import { ElemListeComponent } from "../elem-liste/elem-liste.component";
 
 @Component({
