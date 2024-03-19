@@ -7,6 +7,6 @@
   height: 100%;
   background-color: transparent; /* Ajustez la couleur de fond selon vos besoins */
   overflow-y: scroll; /* Ajoutez une barre de défilement si le contenu est trop long */
-  z-index: 1; /* Assurez-vous que le panneau est au-dessus des autres éléments */
+  z-index: 2; /* Assurez-vous que le panneau est au-dessus des autres éléments */
 }
 
