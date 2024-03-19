@@ -8,22 +8,6 @@ app.use(cors()); // Connection de l'application à internet
 
 app.use(express.json()); // Type de donnée que le serveur envera () JSON
 
-/*
- * À DESACTIVER EN MODE NORMALE *
-
-// Les données que le serveur envera, afin de la test
-app.get("/Events", (req,res) => {
-	// Set de données de test.
-	res.json({ message: "Welcome to Mu-Seek application." });
-});
-
- * À DESACTIVER EN MODE NORMALE *
-*/
-
-/*
- * À DESACTIVER EN MODE TEST DU SERVEUR *
-*/
-
 // Connecter la base de donnée
 const db = require("./app/index.js");
 db.mongoose.connect(db.url, {
@@ -35,13 +19,15 @@ db.mongoose.connect(db.url, {
 });
 
 // Rendre les événements de la base de donnée accessible
-const eventRoutes = require('./app/routes/Events.routes');
-app.use('/Events', eventRoutes);
+app.get("/", (req,res) => {
+	// Set de données de test.
+	res.json({ message: "Bienvenu sur l'API de Mu-Seek, veuillez lire la doc pour savoir comment l'utiliser." });
+});
 
-
-/*
- * À DESACTIVER EN MODE TEST DU SERVEUR *
-*/
+for( const view of db.views ){
+	console.log("Chargement de la vue "+view+"Sur la base de donnée.");
+	app.use('/'+view, db.getViewRoutes(view));
+}
 
 // Mettre le serveur en attente d'une demande.
 app.listen(PORT, () => {

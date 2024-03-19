@@ -1,6 +1,6 @@
 module.exports = mongoose => {
-	const Events = mongoose.model(
-		"Events",
+	const Tests = mongoose.model(
+		"Tests",
 		mongoose.Schema(
 			{
 				title: String,
@@ -11,5 +11,5 @@ module.exports = mongoose => {
 		)
 	);
 
-	return Events;
+	return Tests;
 };
