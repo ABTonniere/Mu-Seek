@@ -25,7 +25,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/app/app.Main.css",
+              "src/app/app.component.css",
               "src/assets/css/global.css",
               "node_modules/leaflet/dist/leaflet.css"
             ],
