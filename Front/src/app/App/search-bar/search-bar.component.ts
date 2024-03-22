@@ -41,7 +41,7 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
         animate('0.5s ease-out')
       ]),
       transition('* => open', [
-        animate('0.5s easy-in')
+        animate('0.5s ease-out')
       ]),
     ]),
 
@@ -57,7 +57,7 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
         animate('0.5s ease-out')
       ]),
       transition('* => open', [
-        animate('0.5s easy-in')
+        animate('0.5s ease-out')
       ]),
     ])
   ]

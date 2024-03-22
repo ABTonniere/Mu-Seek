@@ -8,6 +8,7 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
   templateUrl: './liste.component.html',
   styleUrl: './liste.component.css',
   animations: [
+
     trigger('fadeIn', [
       state('open', style({ opacity: 0 })),
       state('closed', style({
@@ -20,7 +21,7 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
 
     trigger('translateIn', [
       state('open', style({
-
+        right: '-100%',
       })),
       state('closed', style({
         right: '0%',
@@ -29,22 +30,22 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
         animate('0.4s ease-out')
       ]),
       transition('* => open', [
-        animate('0.4s easy-in')
+        animate('0.4s ease-out')
       ]),
     ]),
 
     trigger('translateOut', [
       state('open', style({
-
+        right: '0%',
       })),
       state('closed', style({
-        right: '-100%',
+        right: '-25%',
       })),
       transition('* => closed', [
         animate('0.4s ease-out')
       ]),
       transition('* => open', [
-        animate('0.4s easy-in')
+        animate('0.4s ease-out')
       ]),
     ]),
   ]
@@ -69,10 +70,12 @@ export class ListeComponent {
 
   //animations
   playAnimation: boolean = true;
+  sideAnimation: boolean = false;
 
   ngOnInit() {
     this.animationService.animationTriggered.subscribe(() => {
-      this.playAnimation = !this.playAnimation;
+      this.playAnimation = false;
+      this.sideAnimation = !this.sideAnimation;
     });
   }
 
