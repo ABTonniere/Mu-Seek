@@ -50,7 +50,7 @@ export class OpenstreetmapComponent implements OnInit {
     const myIcon = L.icon({
       iconUrl: 'https://i.imgur.com/vhu2eYZ.png',
       iconSize: [50, 70],
-      iconAnchor: [20, 70],
+      iconAnchor: [25, 70],
     });
     let marker = L.marker([x, y], { icon: myIcon }).addTo(this.map).openPopup();
     this.markers.addLayer(marker);
