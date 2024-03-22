@@ -1,19 +1,8 @@
-<header class="masthead">
-  <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-    <div class="d-flex justify-content-center">
-      <div class="text-center">
-        <h1 class="mx-2 my-0 text-uppercase">Mu-Seek</h1>
-        <div class="container px-6 px-lg-6">
-          <div class="row gx-4 gx-lg-5">
-            <div class="col-md-10 col-lg-8 mx-auto text-center">
-              <div class="row input-group-newsletter">
-                <div class="col-auto"><button class="btn btn-primary" id="submitButton" type="submit"><i class="fa fa-search fa-2x mb-2 text-white"></i></button></div>
-                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Entrez une localisation, un évènement, une adresse..." aria-label="Entrez une localisation, un évènement, une adresse..." data-sb-validations="required,email" /></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<body>
+  <!--<div id="title" [@translateOut]="playAnimation ? 'open' : 'closed'"><h1 class="mx-2 my-0 text-uppercase">Mu-Seek</h1></div>-->
+  <div class="title" *ngIf="playAnimation" @fadeOut><h1 class="mx-2 my-0 text-uppercase">Mu-Seek</h1></div>
+  <div class="input-group-newsletter" [@translateTop]="playAnimation ? 'open' : 'closed'">
+    <button (click)="triggerAnimation()" class="btn btn-primary" id="submitButton" type="submit"><i class="fa fa-search fa-2x mb-2 text-white"></i></button>
+    <input class="form-control" id="emailAddress" type="email" placeholder="Entrez une localisation, un évènement, une adresse..." aria-label="Entrez une localisation, un évènement, une adresse..." data-sb-validations="required,email" />
   </div>
-</header>
+</body>
