@@ -14,6 +14,12 @@ router.get('/ecrire', async(req, res) => {
 router.get('/ecrireMongo', async(req, res) => {
 	controller.write2({message: "Nouveau message générer automatiquement"},res);
 });
+router.get('/gardeMessage', async(req, res) => {
+	controller.transform(req, res);
+});
+router.get('/api', async(req, res) => {
+	controller.fetchDataFromAPI(req, res);
+});
 router.get('/', async (req, res) => {
 	res.json({message: "Ceci est l'accés à quelques test de création d'API et à la gestion de mongoDB."});
 });
