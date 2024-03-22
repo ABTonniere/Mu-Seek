@@ -1,6 +1,8 @@
-<div class="side-panel" [@translateIn]="playAnimation ? 'open' : 'closed'">
-    <button class="collapse-button">&#8595;</button>
-    <ng-container *ngFor="let item of items">
-        <app-elem-liste [titre]="item.titre" [description]="item.description" [date]="item.date" [lieu]="item.lieu"></app-elem-liste>
-    </ng-container>
+<div class="list" [@translateIn]="playAnimation ? 'open' : 'closed'">
+    <button class="collapse-button">&lt;</button>
+    <div class="side-panel" >
+        <ng-container *ngFor="let item of items">
+            <app-elem-liste [titre]="item.titre" [description]="item.description" [date]="item.date" [lieu]="item.lieu"></app-elem-liste>
+        </ng-container>
+    </div>
 </div>

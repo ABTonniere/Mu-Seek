@@ -17,12 +17,28 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
         animate('0.2s 100ms ease-out')
       ]),
     ]),
+
     trigger('translateIn', [
       state('open', style({
         right: '-100%',
       })),
       state('closed', style({
         right: '0%',
+      })),
+      transition('* => closed', [
+        animate('0.4s ease-out')
+      ]),
+      transition('* => open', [
+        animate('0.4s easy-in')
+      ]),
+    ]),
+
+    trigger('translateOut', [
+      state('open', style({
+        right: '0%',
+      })),
+      state('closed', style({
+        right: '-100%',
       })),
       transition('* => closed', [
         animate('0.4s ease-out')
