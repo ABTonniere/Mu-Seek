@@ -7,6 +7,7 @@ const db = { // Crée l'objet contenant la base de donnée.
 	views: ['Tests'], // La liste des vues utilisables pour la base de donnée
 	mongoose: mongoose, // Le gestionnaire de base de donnée.
 	url: dbConfig.url, // L'URL de la base de donnée.
+	getUri: dbConfig.getUri, // L'URI de la base de donnée.
 	getViewModel: function(view) {
 		return require('./models/'+view+'.model.js')(mongoose);
 	},

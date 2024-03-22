@@ -1,5 +1,6 @@
 const express = require('express'); // Le controller de l'application
 const cors = require('cors'); // Comment faire des requête HTTP
+require('dotenv').config();
 
 const app = express(); // Création de l'application
 const PORT = 3080; // Port de communication
@@ -10,9 +11,13 @@ app.use(express.json()); // Type de donnée que le serveur envera () JSON
 
 // Connecter la base de donnée
 const db = require("./app/index.js");
-db.mongoose.connect(db.url, {
+db.mongoose.connect(db.getUri(process.env.DB_PASSWORD), {
+/* DEPRECATED
+	useNewUrlParser: true,
+	useUnifiedTopology: true
+*/
 }).then(() => {
-	console.log("Connecter à la base de donnée de Mu-Seek!");
+	console.log("Connection à la base de donnée de Mu-Seek..........RÉUSSIE !");
 }).catch(err => {
 	console.error("Impossible de se connecter à la base de donnée de Mu-Seek!", err);
 	process.exit();
@@ -25,7 +30,7 @@ app.get("/", (req,res) => {
 });
 
 for( const view of db.views ){
-	console.log("Chargement de la vue "+view+"Sur la base de donnée.");
+	console.log("Chargement de la vue "+view+'.');
 	app.use('/'+view, db.getViewRoutes(view));
 }
 
