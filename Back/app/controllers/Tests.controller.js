@@ -58,30 +58,30 @@ module.exports = {
 			});
 	},
 	// Comment modifier la base de données ?
-	/* CHATGPT non-vérifier
 	update: async function(req, res){
 		try {
-			const result = await TestModel.updateMany({ message: "Nouveau message" }, { message: "Nouveau message généré automatiquement" });
-			res.json({ message: "Les données ont été modifiées avec succès", modifiedCount: result.nModified });
+			const result = await TestModel.updateMany({
+				message: /auto/
+			}, {
+				$set: { message: "auto-modified" }
+			});
+			res.json({ message: "Les données ont été modifiées avec succès", modifiedCount: result.modifiedCount });
 		} catch (err) {
 			console.error('Erreur lors de la mise à jour de l\'élément dans la collection :', err);
 			res.status(500).json({ message: "Une erreur s'est produite lors de la mise à jour de l'élément dans la base de données.", error: err });
 		}
 	},
-	*/
 	// Comment supprimer des données de la base de données ?
-	/* CHATGPT non-vérifier
 	remove: async function(req, res){
 		try {
 			// Supprimer toutes les données avec le message spécifié
-			const result = await TestModel.deleteMany({ message: "Nouveau message généré automatiquement" });
+			const result = await TestModel.deleteMany({ message: /auto/ });
 			res.json({ message: "Les données ont été supprimées avec succès", deletedCount: result.deletedCount });
 		} catch (err) {
 			console.error('Erreur lors de la suppression de l\'élément dans la collection :', err);
 			res.status(500).json({ message: "Une erreur s'est produite lors de la suppression de l'élément dans la base de données.", error: err });
 		}
 	},
-	*/
 	// Comment modifié un objet json en un autre {message:"abc", inutile:"oups"} => {message:"abc", defaut:"squo"}
 	transform: function(req, res){
 		try {

@@ -1,6 +1,5 @@
 const express = require('express'); // Le controller de l'application
 const cors = require('cors'); // Comment faire des requête HTTP
-require('dotenv').config();
 
 const app = express(); // Création de l'application
 const PORT = 3080; // Port de communication
@@ -11,7 +10,7 @@ app.use(express.json()); // Type de donnée que le serveur envera () JSON
 
 // Connecter la base de donnée
 const db = require("./app/index.js");
-db.mongoose.connect(db.getUri(process.env.DB_PASSWORD), {
+db.mongoose.connect(db.config.getDBAdress(), {
 /* DEPRECATED
 	useNewUrlParser: true,
 	useUnifiedTopology: true
