@@ -1,12 +1,12 @@
 
 .side-panel {
   position: absolute;
-  right: 0;
+  right: -100%;
   top: 0;
-  width: 25vw; /* Ajustez la largeur selon vos besoins */
+  width: 25vw;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.5); /* Ajustez la couleur de fond selon vos besoins */
-  overflow-y: scroll; /* Ajoutez une barre de défilement si le contenu est trop long */
-  z-index: 2; /* Assurez-vous que le panneau est au-dessus des autres éléments */
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-y: scroll;
+  z-index: 2;
 }
 
