@@ -20,7 +20,7 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
 
     trigger('translateIn', [
       state('open', style({
-        right: '-100%',
+
       })),
       state('closed', style({
         right: '0%',
@@ -35,7 +35,7 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
 
     trigger('translateOut', [
       state('open', style({
-        right: '0%',
+
       })),
       state('closed', style({
         right: '-100%',
@@ -72,13 +72,11 @@ export class ListeComponent {
 
   ngOnInit() {
     this.animationService.animationTriggered.subscribe(() => {
-      this.playAnimation = false;
-      console.log("Bien pris");
+      this.playAnimation = !this.playAnimation;
     });
   }
 
   triggerAnimation() {
     this.animationService.triggerAnimation();
   }
-
 }
