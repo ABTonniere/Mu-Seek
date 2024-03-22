@@ -12,4 +12,9 @@ export class ElemListeComponent {
   @Input() date: string = "Aujourd'hui ou demain ou après-demain ou jamais";
 
 
+  affichagePlus: boolean = false;
+
+  toggleAffichagePlus() {
+    this.affichagePlus = !this.affichagePlus;
+  }
 }

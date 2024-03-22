@@ -1,0 +1,7 @@
+app-openstreetmap,
+app-search-bar {
+  top: 0;       /* fixe la position de la page verticalement */
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -0%);
+}

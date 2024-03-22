@@ -5,7 +5,7 @@
   top: 0;
   width: 25vw; /* Ajustez la largeur selon vos besoins */
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.7); /* Ajustez la couleur de fond selon vos besoins */
+  background-color: rgba(255, 255, 255, 0.5); /* Ajustez la couleur de fond selon vos besoins */
   overflow-y: scroll; /* Ajoutez une barre de défilement si le contenu est trop long */
   z-index: 2; /* Assurez-vous que le panneau est au-dessus des autres éléments */
 }
