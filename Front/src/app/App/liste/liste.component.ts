@@ -1,5 +1,4 @@
 import {Component, HostListener,} from '@angular/core';
-import { ElemListeComponent } from "../elem-liste/elem-liste.component";
 import {AnimationService} from "../../services/animation.service";
 import {animate, state, style, transition, trigger} from "@angular/animations";
 
