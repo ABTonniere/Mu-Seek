@@ -10965,6 +10965,7 @@ body {
   }
 }
 
+/* Mode paysage */
 @media only screen and (max-width: 992px) and (max-height: 450px) {
   .title {
     display: initial;
