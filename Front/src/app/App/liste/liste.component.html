@@ -1,6 +1,6 @@
-<div class="list">
-    <button (click)="triggerAnimation()" class="collapse-button">&lt;</button>
-    <div class="side-panel" [@translateIn]="playAnimation ? 'open' : 'closed'" *ngIf="!playAnimation" [@translateOut]="sideAnimation ? 'open' : 'closed'">
+<div class="list" [@translateIn]="playAnimation ? 'open' : 'closed'" *ngIf="!playAnimation" [@translateOut]="sideAnimation ? 'open' : 'closed'">
+    <button (click)="triggerAnimation()" class="collapse-button"><img src="../../../assets/collapse_arrow.png" alt="Bouton Collapse"></button>
+    <div class="side-panel" >
         <ng-container *ngFor="let item of items">
             <app-elem-liste [titre]="item.titre" [description]="item.description" [date]="item.date" [lieu]="item.lieu"></app-elem-liste>
         </ng-container>
