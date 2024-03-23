@@ -16,7 +16,7 @@
   border: none;
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.5);
-  left: -8.3%;
+  left: -2.06vw;
   transition: opacity 0.3s ease, background-color 0.3s ease;
   color: white;
 }

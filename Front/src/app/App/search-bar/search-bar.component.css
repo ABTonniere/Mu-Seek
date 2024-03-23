@@ -10957,7 +10957,7 @@ body {
 
   .input-group-newsletter .form-control{
     left: 50%;
-    width: 100vw;
+    width: 90vw;
     max-width: 600px;
   }
 }
