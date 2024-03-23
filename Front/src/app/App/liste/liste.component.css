@@ -72,8 +72,8 @@
 
 @media only screen and (max-width: 767px) {
   .collapse-button {
-    left: -30vw;
-    width: 5vw;
+    left: -35vw;
+    width: 10vw;
   }
 
   .list {
