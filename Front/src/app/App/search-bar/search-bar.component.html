@@ -1,5 +1,4 @@
 <body>
-  <!--<div id="title" [@translateOut]="playAnimation ? 'open' : 'closed'"><h1 class="mx-2 my-0 text-uppercase">Mu-Seek</h1></div>-->
   <div class="title" *ngIf="playAnimation" @fadeOut><h1 class="mx-2 my-0 text-uppercase">Mu-Seek</h1></div>
   <div class="input-group-newsletter" [@translateTop]="playAnimation ? 'open' : 'closed'">
     <button (click)="triggerAnimation()" class="btn btn-primary" id="submitButton" type="submit"><i class="fa fa-search fa-2x mb-2 text-white"></i></button>
