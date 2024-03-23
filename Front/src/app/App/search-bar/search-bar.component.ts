@@ -54,10 +54,10 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
         transform: 'translate(-140%, 40%)',
       })),
       transition('* => closed', [
-        animate('0.5s ease-out')
+        animate('0.6s ease-out')
       ]),
       transition('* => open', [
-        animate('0.5s ease-out')
+        animate('0.6s ease-out')
       ]),
     ])
   ]
