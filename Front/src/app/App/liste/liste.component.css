@@ -33,6 +33,22 @@
   right: -100%;
 }
 
+@media only screen and (max-width: 992px) {
+  .collapse-button {
+    left: -5vw;
+    width: 5vw;
+  }
+
+  .list {
+    right: -100vw;
+  }
+
+  .img-responsive {
+    width: 20px;
+    height: 20px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .collapse-button {
     left: -5vw;
