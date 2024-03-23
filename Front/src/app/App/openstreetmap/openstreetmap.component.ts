@@ -10,7 +10,7 @@ import {AnimationService} from "../../services/animation.service";
   animations: [
     trigger('fadeOut', [
       transition(':leave', [
-        animate('500ms ease-out', style({ opacity: 0 }))
+        animate('0.6s ease-out', style({ opacity: 0 }))
       ]),
     ])
   ]
