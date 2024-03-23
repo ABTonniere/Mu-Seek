@@ -80,6 +80,6 @@ export class ListeComponent {
   }
 
   triggerAnimation() {
-    this.animationService.triggerAnimation();
+    if(!this.playAnimation) this.animationService.triggerAnimation();
   }
 }
