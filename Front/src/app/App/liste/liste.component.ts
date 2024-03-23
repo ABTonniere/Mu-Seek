@@ -1,9 +1,7 @@
-import {Component,} from '@angular/core';
+import {Component, HostListener,} from '@angular/core';
 import { ElemListeComponent } from "../elem-liste/elem-liste.component";
 import {AnimationService} from "../../services/animation.service";
 import {animate, state, style, transition, trigger} from "@angular/animations";
-
-const isMobile = 'ontouchstart' in window || navigator.maxTouchPoints > 1;
 
 @Component({
   selector: 'app-liste',

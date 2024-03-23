@@ -51,7 +51,7 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
       })),
       state('closed', style({
         top: '0%',
-        transform: 'translate(-40vw, 5vh)',
+        transform: (window.innerHeight > window.innerWidth) ? 'translate(-45vw, 5vh)': 'translate(-40vw, 5vh)'
       })),
       transition('* => closed', [
         animate('0.6s ease-out')
