@@ -75,6 +75,6 @@ export class SearchBarComponent {
   }
 
   triggerAnimation() {
-    this.animationService.triggerAnimation();
+    if(this.playAnimation) this.animationService.triggerAnimation();
   }
 }
