@@ -3,6 +3,8 @@ import { ElemListeComponent } from "../elem-liste/elem-liste.component";
 import {AnimationService} from "../../services/animation.service";
 import {animate, state, style, transition, trigger} from "@angular/animations";
 
+const isMobile = 'ontouchstart' in window || navigator.maxTouchPoints > 1;
+
 @Component({
   selector: 'app-liste',
   templateUrl: './liste.component.html',
@@ -21,10 +23,10 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
 
     trigger('translateIn', [
       state('open', style({
-        right: '-100%',
+        right: '-100vw',
       })),
       state('closed', style({
-        right: '0%',
+        right: '0vw',
       })),
       transition('* => closed', [
         animate('0.4s ease-out')
@@ -36,10 +38,10 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
 
     trigger('translateOut', [
       state('open', style({
-        right: '0%',
+        right: '0vw',
       })),
       state('closed', style({
-        right: '-25%',
+        right: (window.innerHeight > window.innerWidth) ? '-50vw': '-25vw',
       })),
       transition('* => closed', [
         animate('0.5s ease-out')
@@ -50,9 +52,12 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
     ]),
   ]
 })
+
 export class ListeComponent {
 
   nbElem: number = 0;
+  playAnimation: boolean = true;
+  sideAnimation: boolean = false;
 
   items: any[] = [
     {id: this.nbElem++, titre: "Hello World !", description: "Lorem ipsum dolor sit amet, consectekefhbsdjk", lieu: "Quelque paAAAHHrt dans le monde (J'ai eu peur)(Même si je suis une machine)(respectez-moi svp T_T)", date: "Aujourd'hui ou demain ou après-demain ou jamais"},
@@ -67,10 +72,6 @@ export class ListeComponent {
       this.items.push({id: this.nbElem++, titre: "Another World !", description: "Un texte pour dire que c'est pour que ce soit différent de l'autre", lieu: "Quelque part dans le monde mais ailleur que l'autre", date: "Pas au même moment que l'autre"});
     }
   }
-
-  //animations
-  playAnimation: boolean = true;
-  sideAnimation: boolean = false;
 
   ngOnInit() {
     this.animationService.animationTriggered.subscribe(() => {

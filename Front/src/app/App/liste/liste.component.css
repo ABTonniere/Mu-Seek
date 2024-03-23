@@ -30,7 +30,7 @@
   width: 25vw;
   height: 100%;
   position: absolute;
-  right: -100%;
+  right: -100vw;
 }
 
 @media only screen and (max-width: 992px) {
@@ -49,9 +49,9 @@
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media (max-width: 992px) {
   .collapse-button {
-    left: -5vw;
+    left: -30vw;
     width: 5vw;
   }
 
@@ -62,5 +62,31 @@
   .img-responsive {
     width: 20px;
     height: 20px;
+  }
+
+  .side-panel {
+    width: 50vw;
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .collapse-button {
+    left: -30vw;
+    width: 5vw;
+  }
+
+  .list {
+    right: -100vw;
+  }
+
+  .img-responsive {
+    width: 20px;
+    height: 20px;
+  }
+
+  .side-panel {
+    width: 50vw;
+    right: 0;
   }
 }
