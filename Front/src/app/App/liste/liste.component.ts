@@ -51,12 +51,12 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
 
     trigger('imageChangeAnimation', [
       transition(':increment', [
-        animate('0.5s', style({ opacity: 0 })), // Diminue l'opacité à 0 lors du changement d'image
-        animate('0.5s', style({ opacity: 1 })) // Augmente l'opacité à 1 après le changement d'image
+        animate('0.5s', style({ opacity: 0 })),
+        animate('0.5s', style({ opacity: 1 }))
       ]),
       transition(':decrement', [
-        animate('0.5s', style({ opacity: 0 })), // Diminue l'opacité à 0 lors du changement d'image
-        animate('0.5s', style({ opacity: 1 })) // Augmente l'opacité à 1 après le changement d'image
+        animate('0.5s', style({ opacity: 0 })),
+        animate('0.5s', style({ opacity: 1 }))
       ])
     ])
   ]
