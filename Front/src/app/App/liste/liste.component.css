@@ -26,6 +26,15 @@
   background-color: orangered;
 }
 
+.nodata-text {
+  text-align: center;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 2.5rem;
+  font-style: italic;
+  color: white;
+  text-decoration: underline;
+}
+
 .list {
   width: 25vw;
   height: 100%;

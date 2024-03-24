@@ -1,7 +1,8 @@
 <div class="list" [@translateIn]="playAnimation ? 'open' : 'closed'" *ngIf="!playAnimation" [@translateOut]="sideAnimation ? 'open' : 'closed'">
     <button (click)="triggerAnimation();" class="collapse-button"><img [src]="imageIndex === 0 ? '../../../assets/collapse_arrow_right.png' : '../../../assets/collapse_arrow_left.png'" alt="Bouton Collapse" class="img-responsive" [@imageChangeAnimation]="imageIndex"></button>
-    <div class="side-panel" >
+    <div class="side-panel">
         <ng-container *ngFor="let item of items">
+            <!--<p class="nodata-text">ceci est un test</p>-->
             <app-elem-liste [titre]="item.titre" [description]="item.description" [date]="item.date" [lieu]="item.lieu"></app-elem-liste>
         </ng-container>
     </div>
