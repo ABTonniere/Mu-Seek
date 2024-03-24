@@ -63,15 +63,24 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
   ]
 })
 export class SearchBarComponent {
-  constructor(private animationService: AnimationService) { }
-
   playAnimation: boolean = true;
+
+  constructor(private animationService: AnimationService) { }
 
   ngOnInit() {
     this.animationService.animationTriggered.subscribe(() => {
       this.playAnimation = false;
-      console.log("Bien pris");
     });
+  }
+
+  preventDefault(event: Event, callback: Function, searchValue: string) {
+    if (searchValue.trim() === '') {
+      event.preventDefault();
+      console.log("Access rejected!");
+      return;
+    }
+    else if(this.playAnimation) this.animationService.triggerAnimation();
+    console.log("Access granted!");
   }
 
   triggerAnimation() {
