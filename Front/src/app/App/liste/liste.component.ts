@@ -8,6 +8,7 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
   styleUrl: './liste.component.css',
   animations: [
 
+      // simple animation de fondu
     trigger('fadeIn', [
       state('open', style({ opacity: 0 })),
       state('closed', style({
@@ -18,6 +19,7 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
       ]),
     ]),
 
+      // animation pour faire apparaître le side-panel
     trigger('translateIn', [
       state('open', style({
         right: '-100vw',
@@ -33,12 +35,13 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
       ]),
     ]),
 
+      // animation pour sortir le side-panel de l'écran
     trigger('translateOut', [
       state('open', style({
         right: '0vw',
       })),
       state('closed', style({
-        right: (window.innerHeight > window.innerWidth) ? '-50vw': '-25vw',
+        right: (window.innerHeight > window.innerWidth) && (window.innerWidth <= 962) ? '-50vw': '-25vw',
       })),
       transition('* => closed', [
         animate('0.5s ease-out')
@@ -48,6 +51,7 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
       ]),
     ]),
 
+      // animation pour changer l'image du collapse button
     trigger('imageChangeAnimation', [
       transition(':increment', [
         animate('0.5s', style({ opacity: 0 })),
@@ -82,6 +86,7 @@ export class ListeComponent {
     }
   }
 
+  // trigger des animations
   ngOnInit() {
     this.animationService.animationTriggered.subscribe(() => {
       this.playAnimation = false;
@@ -90,6 +95,7 @@ export class ListeComponent {
     });
   }
 
+  // on fait les animations de tous les éléments uniquement si on est pas dans la page de départ
   triggerAnimation() {
     if(!this.playAnimation) this.animationService.triggerAnimation();
   }
