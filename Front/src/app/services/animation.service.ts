@@ -5,10 +5,9 @@ import {ConsoleLogger} from "@angular/compiler-cli";
 @Injectable({
   providedIn: 'root'
 })
+
 export class AnimationService {
-
   animationTriggered = new Subject<void>();
-
   constructor() { }
 
   triggerAnimation() {

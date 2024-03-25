@@ -1,5 +1,8 @@
 import {Component, Input} from '@angular/core';
 import {animate, state, style, transition, trigger} from "@angular/animations";
+import {OpenstreetmapComponent} from "../openstreetmap/openstreetmap.component";
+import {AnimationService} from "../../services/animation.service";
+import {OpenstreetmapService} from "../../services/openstreetmap.service";
 
 @Component({
   selector: 'app-elem-liste',
@@ -13,8 +16,12 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
     ]),
   ]
 })
+
 export class ElemListeComponent {
   affichagePlus: boolean = false;
+  mapPin: boolean = false;
+
+  constructor(private openstreetmapService: OpenstreetmapService) { }
 
   @Input() titre: string = "Nom de l'événement";
   @Input() description: string = "Description de l'événement"
@@ -26,5 +33,11 @@ export class ElemListeComponent {
 
   affichePlus() {
     this.affichagePlus = !this.affichagePlus;
+  }
+
+  pinMap() {
+    this.mapPin = !this.mapPin;
+    this.openstreetmapService.clearPins();
+    this.openstreetmapService.putPin(10, 0, "zebi");
   }
 }

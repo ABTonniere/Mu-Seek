@@ -75,6 +75,12 @@ p {
   width: 5vw;
 }
 
+.toggle-button img {
+  position: absolute;
+  width: 1.5vw;
+  height: 1.5vw;
+}
+
 .toggle-button:hover,
 .toggle-button:focus {
   background-color: #fa9d4e;
@@ -83,4 +89,17 @@ p {
 
 .toggle-button:hover {
   transform: translateY(-1px);
+}
+
+@media only screen and (max-width: 962px) {
+  .toggle-button img {
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
 }
