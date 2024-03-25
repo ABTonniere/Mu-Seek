@@ -1,6 +1,7 @@
 import {Component, HostListener,} from '@angular/core';
 import {AnimationService} from "../../services/animation.service";
 import {animate, state, style, transition, trigger} from "@angular/animations";
+import {ElemListeComponent} from "../elem-liste/elem-liste.component";
 
 @Component({
   selector: 'app-liste',
@@ -71,16 +72,19 @@ export class ListeComponent {
   imageIndex: number = 1;
   playAnimation: boolean = true;
   sideAnimation: boolean = false;
+  elemCourant: ElemListeComponent | null = null;
 
   items: any[] = [
     {id: this.nbElem++, titre: "Hello World !", description: "Lorem ipsum dolor sit amet, consectekefhbsdjk", lieu: "Quelque paAAAHHrt dans le monde (J'ai eu peur)(Même si je suis une machine)(respectez-moi svp T_T)", date: "Aujourd'hui ou demain ou après-demain ou jamais"},
-    {id: this.nbElem++, titre: "Another World !", description: "Un texte pour dire que c'est pour que ce soit différent de l'autre", lieu: "Quelque part dans le monde mais ailleur que l'autre", date: "Pas au même moment que l'autre"}
+    {id: this.nbElem++, titre: "Another World !", description: "Un texte pour dire que c'est pour que ce soit différent de l'autre", lieu: "Quelque part dans le monde mais ailleur que l'autre", date: "Pas au même moment que l'autre"},
   ];
 
-  ajouterElem(titre: string, contenu: string) {
-    this.items.push({id: this.nbElem++, titre: titre, contenu: contenu});
+  ajouterElem(titre: string, description: string, lieu: string, date: string, type: string, genre: string, artiste: string) {
+    this.items.push({id: this.nbElem++, titre: titre, description: description, lieu: lieu, date: date, type: type, genre: genre, artiste: artiste});
   }
+
   constructor(private animationService: AnimationService){
+    // ajout de 50 éléments pour tester le scroll
     for (let i : number = 0; i < 50; i++) {
       this.items.push({id: this.nbElem++, titre: "Another World !", description: "Un texte pour dire que c'est pour que ce soit différent de l'autre", lieu: "Quelque part dans le monde mais ailleur que l'autre", date: "Pas au même moment que l'autre"});
     }
