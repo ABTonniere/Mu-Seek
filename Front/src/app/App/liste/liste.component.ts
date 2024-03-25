@@ -1,30 +1,27 @@
-import {Component,} from '@angular/core';
+import {Component,OnInit} from '@angular/core';
 import { ElemListeComponent } from "../elem-liste/elem-liste.component";
+import {ServerPOSTService} from '../../services/server-post.service';
 
 @Component({
-  selector: 'app-liste',
-  templateUrl: './liste.component.html',
-  styleUrl: './liste.component.css'
+	selector: 'app-liste',
+	templateUrl: './liste.component.html',
+	styleUrl: './liste.component.css'
 })
-export class ListeComponent {
+export class ListeComponent implements OnInit {
+	nbElem: number = 0;
 
-  nbElem: number = 0;
+	items: any[] = [];
 
-  items: any[] = [
-    {id: this.nbElem++, titre: "Hello World !", description: "Lorem ipsum dolor sit amet, consectekefhbsdjk", lieu: "Quelque paAAAHHrt dans le monde (J'ai eu peur)(Même si je suis une machine)(respectez-moi svp T_T)", date: "Aujourd'hui ou demain ou après-demain ou jamais"},
-    {id: this.nbElem++, titre: "Another World !", description: "Un texte pour dire que c'est pour que ce soit différent de l'autre", lieu: "Quelque part dans le monde mais ailleur que l'autre", date: "Pas au même moment que l'autre"}
-  ];
+	ajouterElem(titre: string, contenu: string) {
+		this.items.push({id: this.nbElem++, titre: titre, contenu: contenu});
+	}
+	constructor(private server: ServerPOSTService){
+	}
+	ngOnInit() {
+		this.server.changeList(this);
+	}
 
-  ajouterElem(titre: string, contenu: string) {
-    this.items.push({id: this.nbElem++, titre: titre, contenu: contenu});
-  }
-  constructor(){
-    for (let i : number = 0; i < 50; i++) {
-      this.items.push({id: this.nbElem++, titre: "Another World !", description: "Un texte pour dire que c'est pour que ce soit différent de l'autre", lieu: "Quelque part dans le monde mais ailleur que l'autre", date: "Pas au même moment que l'autre"});
-    }
-  }
-
-
-
-
+	clearElem(){
+		this.items = [];
+	}
 }
