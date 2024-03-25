@@ -9,7 +9,7 @@
                 <p>{{lieu}}</p>
                 <h4>Date</h4>
                 <p>{{date}}</p>
-                <div class="extend" *ngIf="affichagePlus">
+                <div class="extend" [@extend]="affichagePlus ? 'open' : 'closed'">
                     <h4>Type</h4>
                     <p>{{type}}</p>
                     <h4>Genre</h4>
@@ -17,7 +17,7 @@
                     <h4>Artiste</h4>
                     <p>{{artiste}}</p>
                 </div>
-                <button class="toggle-button" (click)="toggleAffichagePlus()">{{ affichagePlus ? '-' : '+' }}</button>
+                <button class="toggle-button" (click)="affichePlus()">{{ affichagePlus ? '-' : '+' }}</button>
             </div>
         </div>
     </div>

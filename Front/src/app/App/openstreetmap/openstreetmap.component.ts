@@ -61,5 +61,4 @@ export class OpenstreetmapComponent implements OnInit {
     this.markers = L.layerGroup();
     this.markers.addTo(this.map);
   }
-
 }
