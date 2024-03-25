@@ -51,7 +51,7 @@ export class ServerPOSTService {
 					// Affiché les nouveaux pins
 					for( const res of this.lastResult ){
 						console.log(res);
-						//this.OSM.putPin(res.area.coordinates.longitude, res.area.coordinates.latitude, res.nom);
+						this.OSM.putPin(res.area.coordinates.latitude, res.area.coordinates.longitude, res.nom);
 					}
 				}
 				// Rafraichire la liste
