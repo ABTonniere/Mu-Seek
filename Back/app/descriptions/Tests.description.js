@@ -1,0 +1,1 @@
+module.exports = "Un set de tests des fonctionalité du Typescript, d'Express, de MongoDB, des servers, et de tout ce qui est utilisé dans ce projet. Sert aussi de pense bête pour obtenire des bouts de codes fonctionnel.";

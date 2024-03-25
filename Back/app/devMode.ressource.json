@@ -1,0 +1,3213 @@
+[
+	{
+		"nom":"[concert]",
+		"_id":"042190ae-a57f-433e-985b-5df8342ce46e",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1887-03-20T00:00:00.000Z",
+			"end":"1887-03-20T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Éden-Théâtre",
+			"adresse":"7 rue Boudreau,75009 Paris",
+			"coordinates":{
+				"longitude":2.32915,
+				"latitude":48.8722
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"092c5d10-b354-4702-9e96-ce951eddd5da",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1905-10-15T00:00:00.000Z",
+			"end":"1905-10-15T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Théâtre de Paris",
+			"adresse":"15 rue Blanche,75009 Paris",
+			"coordinates":{
+				"longitude":2.331612,
+				"latitude":48.878405
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[Concert des \" Soirées d'art \"]",
+		"_id":"154b7b49-8395-4a88-a601-f245117df83d",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1905-12-14T00:00:00.000Z",
+			"end":"1905-12-14T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Paris",
+			"adresse":null,
+			"coordinates":{
+				"longitude":0,
+				"latitude":0
+			},
+			"typeareas":"City"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"1cfeedcc-8eb7-44a9-aeb2-de6027e42119",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1889-06-29T00:00:00.000Z",
+			"end":"1889-06-29T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Palais du Trocadéro",
+			"adresse":"Place du Trocadéro-et-du-11-Novembre,75016 Paris",
+			"coordinates":{
+				"longitude":2.287222,
+				"latitude":48.862778
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[stage performance]",
+		"_id":"42b1af78-72e0-48d2-b8ad-65ab8509ed27",
+		"typeevents":"Stage performance",
+		"lifeSpan":{
+			"begin":"1677-01-05T00:00:00.000Z",
+			"end":"1677-01-05T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Château de Saint-Germain-en-Laye",
+			"adresse":"Place Charles de Gaulle,78100 Saint-Germain-en-Laye,France",
+			"coordinates":{
+				"longitude":2.096389,
+				"latitude":48.898056
+			},
+			"typeareas":"Place"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"2ème Concert National",
+		"_id":"455eab63-9a39-4f58-ac47-21f8bef56345",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1873-03-09T00:00:00.000Z",
+			"end":"1873-03-09T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Odéon-Théâtre de l'Europe",
+			"adresse":"Place de l'Odéon,75006 Paris",
+			"coordinates":{
+				"longitude":2.33875,
+				"latitude":48.8495
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"2021b5fe-05fe-499b-b267-b40573e9485c",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1882-05-12T00:00:00.000Z",
+			"end":"1882-05-12T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Salon Flaxland",
+			"adresse":null,
+			"coordinates":{
+				"longitude":0,
+				"latitude":0
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"Philémon et Baucis",
+		"_id":"24e31cea-bd71-4cfb-8af1-d51dd83ce500",
+		"typeevents":"Other",
+		"lifeSpan":{
+			"begin":"1899-01-01T00:00:00.000Z",
+			"end":"1899-01-01T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Théâtre national de l’Opéra‐Comique",
+			"adresse":"1 Place Boieldieu,75002 Paris,France",
+			"coordinates":{
+				"longitude":2.337833,
+				"latitude":48.871083
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"2bd88621-b26b-47cb-a1fe-4d72d44ba81c",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1904-11-06T00:00:00.000Z",
+			"end":"1904-11-06T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Théâtre du Châtelet",
+			"adresse":"1 place du Châtelet,75001 Paris",
+			"coordinates":{
+				"longitude":2.346389,
+				"latitude":48.857778
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[stage performance]",
+		"_id":"0f8b7336-ce6d-40c8-b794-09f83b29c53b",
+		"typeevents":"Stage performance",
+		"lifeSpan":{
+			"begin":"1682-04-18T00:00:00.000Z",
+			"end":"1682-04-18T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Théâtre du Palais-Royal",
+			"adresse":"Rue Saint-Honoré,75001 Paris",
+			"coordinates":{
+				"longitude":2.337255,
+				"latitude":48.862894
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"0fd9cdbe-62f5-4160-8dbb-f29b47d84f36",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1901-10-27T00:00:00.000Z",
+			"end":"1901-10-27T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Théâtre de Paris",
+			"adresse":"15 rue Blanche,75009 Paris",
+			"coordinates":{
+				"longitude":2.331612,
+				"latitude":48.878405
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"460530d4-f40e-4518-b9a8-a0dc3a55293b",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1878-06-20T00:00:00.000Z",
+			"end":"1878-06-20T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Palais du Trocadéro",
+			"adresse":"Place du Trocadéro-et-du-11-Novembre,75016 Paris",
+			"coordinates":{
+				"longitude":2.287222,
+				"latitude":48.862778
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[private performance]",
+		"_id":"4c217b31-b6f0-419f-a720-8ba68c7af81f",
+		"typeevents":"Other",
+		"lifeSpan":{
+			"begin":"1889-03-01T00:00:00.000Z",
+			"end":"1889-03-01T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Paris",
+			"adresse":null,
+			"coordinates":{
+				"longitude":0,
+				"latitude":0
+			},
+			"typeareas":"City"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"Tarare",
+		"_id":"11bedadb-cc47-42a9-a102-0e96cf341702",
+		"typeevents":"Stage performance",
+		"lifeSpan":{
+			"begin":"1787-06-08T00:00:00.000Z",
+			"end":"1787-06-08T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Théâtre de la Porte Saint-Martin",
+			"adresse":"18 Boulevard Saint-Martin,75010 Paris",
+			"coordinates":{
+				"longitude":2.356667,
+				"latitude":48.869028
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"1er Concert National",
+		"_id":"4d5ee00b-766b-48ff-b135-16fa13dce859",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1873-03-02T00:00:00.000Z",
+			"end":"1873-03-02T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Odéon-Théâtre de l'Europe",
+			"adresse":"Place de l'Odéon,75006 Paris",
+			"coordinates":{
+				"longitude":2.33875,
+				"latitude":48.8495
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"Salle Érard",
+		"_id":"4ed082be-ddcc-4cb3-8516-f2e247e28b34",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1902-01-11T00:00:00.000Z",
+			"end":"1902-01-11T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Salle Érard",
+			"adresse":"13 rue du Mail,75002 Paris,France",
+			"coordinates":{
+				"longitude":2.342221,
+				"latitude":48.866729
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"51d134b4-b199-49d4-b166-ae0a34ecf7d2",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1900-03-10T00:00:00.000Z",
+			"end":"1900-03-10T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Salle Pleyel",
+			"adresse":"22 rue de Rochechouart,75009 Paris",
+			"coordinates":{
+				"longitude":2.344971,
+				"latitude":48.877889
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[stage performance]",
+		"_id":"54fa3102-0110-491b-a0db-2d24a92c0f53",
+		"typeevents":"Stage performance",
+		"lifeSpan":{
+			"begin":"1799-09-12T00:00:00.000Z",
+			"end":"1799-09-12T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Théâtre du Palais-Royal",
+			"adresse":"38 rue de Montpensier,75001 Paris",
+			"coordinates":{
+				"longitude":2.337639,
+				"latitude":48.8662
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"66979b89-d773-4233-86b1-49aafe490545",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1894-12-22T00:00:00.000Z",
+			"end":"1894-12-22T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Société nationale de musique",
+			"adresse":"184 rue du Faubourg-Saint-Denis,75010 Paris",
+			"coordinates":{
+				"longitude":2.35795,
+				"latitude":48.8807
+			},
+			"typeareas":"Other"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"6e419b66-9357-4c30-b557-4f18efdf07fd",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1900-12-09T00:00:00.000Z",
+			"end":"1900-12-09T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Théâtre de Paris",
+			"adresse":"15 rue Blanche,75009 Paris",
+			"coordinates":{
+				"longitude":2.331612,
+				"latitude":48.878405
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"798cb1e1-3e86-47fa-b112-3022005beb11",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1908-02-21T00:00:00.000Z",
+			"end":"1908-02-21T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Paris",
+			"adresse":null,
+			"coordinates":{
+				"longitude":0,
+				"latitude":0
+			},
+			"typeareas":"City"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"7b2c3791-059b-4c8f-a675-1586a249e394",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1896-05-06T00:00:00.000Z",
+			"end":"1896-05-06T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Salle Pleyel",
+			"adresse":"22 rue de Rochechouart,75009 Paris",
+			"coordinates":{
+				"longitude":2.344971,
+				"latitude":48.877889
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"81795029-15c1-49ba-aaf2-8909caccbb3b",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1905-05-15T00:00:00.000Z",
+			"end":"1905-05-15T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Théâtre des Mathurins",
+			"adresse":"36 Rue des Mathurins,75008 Paris,France",
+			"coordinates":{
+				"longitude":2.32586,
+				"latitude":48.8731
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"81914a91-7cc6-4ebd-9022-ece1fc88791f",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1896-12-27T00:00:00.000Z",
+			"end":"1896-12-27T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Conservatoire à rayonnement régional du Grand Nancy",
+			"adresse":"3,rue Michel Ney,54000 Nancy,France",
+			"coordinates":{
+				"longitude":0,
+				"latitude":0
+			},
+			"typeareas":"Educational institution"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"8467d4b7-3bf5-4967-86f6-9f5892fb5acd",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1900-01-27T00:00:00.000Z",
+			"end":"1900-01-27T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Salle Érard",
+			"adresse":"13 rue du Mail,75002 Paris,France",
+			"coordinates":{
+				"longitude":2.342221,
+				"latitude":48.866729
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"8f701f5d-3265-4182-8081-b772351b8db6",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1893-12-29T00:00:00.000Z",
+			"end":"1893-12-29T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Salle Pleyel",
+			"adresse":"22 rue de Rochechouart,75009 Paris",
+			"coordinates":{
+				"longitude":2.344971,
+				"latitude":48.877889
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"Nouveaux Concerts",
+		"_id":"9275e445-ad76-457d-be1d-19aa1d07567e",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1881-10-30T00:00:00.000Z",
+			"end":"1881-10-30T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Alhambra-Maurice Chevalier",
+			"adresse":"50 rue de Malte,75011 Paris",
+			"coordinates":{
+				"longitude":2.3667,
+				"latitude":48.8671
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"Concerts Populaires",
+		"_id":"928a4640-adb7-4a7a-abd3-066e855d711c",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1861-10-27T00:00:00.000Z",
+			"end":"1861-10-27T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Cirque d’Hiver",
+			"adresse":"110 rue Amelot,75011 Paris",
+			"coordinates":{
+				"longitude":2.367263,
+				"latitude":48.863478
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"Nouveaux Concerts",
+		"_id":"92f7af06-9d6f-4651-af5d-3a7775f11386",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1881-11-06T00:00:00.000Z",
+			"end":"1881-11-06T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Alhambra-Maurice Chevalier",
+			"adresse":"50 rue de Malte,75011 Paris",
+			"coordinates":{
+				"longitude":2.3667,
+				"latitude":48.8671
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"98960bc8-9444-465e-9052-39b96cf1e6aa",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1886-05-01T00:00:00.000Z",
+			"end":"1886-05-01T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Société nationale de musique",
+			"adresse":"184 rue du Faubourg-Saint-Denis,75010 Paris",
+			"coordinates":{
+				"longitude":2.35795,
+				"latitude":48.8807
+			},
+			"typeareas":"Other"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"aa22ed8f-0b26-4d45-be28-dc10a47ae857",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1905-02-10T00:00:00.000Z",
+			"end":"1905-02-10T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Salle Aeolian",
+			"adresse":null,
+			"coordinates":{
+				"longitude":0,
+				"latitude":0
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[stage performance]",
+		"_id":"ab3ccead-f013-49ad-a24a-f91c321ec700",
+		"typeevents":"Stage performance",
+		"lifeSpan":{
+			"begin":"1784-04-26T00:00:00.000Z",
+			"end":"1784-04-26T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Théâtre de la Porte Saint-Martin",
+			"adresse":"18 Boulevard Saint-Martin,75010 Paris",
+			"coordinates":{
+				"longitude":2.356667,
+				"latitude":48.869028
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"ab543ae5-7b5e-498f-a4ab-0a8b59d1efac",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1906-02-06T00:00:00.000Z",
+			"end":"1906-02-06T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Salle des Agriculteurs",
+			"adresse":"8 rue d'Athènes,75009 Paris",
+			"coordinates":{
+				"longitude":2.328931,
+				"latitude":48.878361
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"aca3d7fc-cd88-4c28-88c7-44b6191c5ac9",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1893-04-08T00:00:00.000Z",
+			"end":"1893-04-08T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Salle Érard",
+			"adresse":"13 rue du Mail,75002 Paris,France",
+			"coordinates":{
+				"longitude":2.342221,
+				"latitude":48.866729
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"ad432a30-8750-447f-bb4b-e9535b26c844",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1883-06-23T00:00:00.000Z",
+			"end":"1883-06-23T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Institut de France",
+			"adresse":"23 quai de Conti,75270 Paris",
+			"coordinates":{
+				"longitude":2.336903,
+				"latitude":48.857242
+			},
+			"typeareas":"Other"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[stage performance]",
+		"_id":"b2d410bf-b182-4409-a45a-b62f1d0a67e7",
+		"typeevents":"Other",
+		"lifeSpan":{
+			"begin":"1902-04-30T00:00:00.000Z",
+			"end":"1902-04-30T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Théâtre national de l’Opéra‐Comique",
+			"adresse":"1 Place Boieldieu,75002 Paris,France",
+			"coordinates":{
+				"longitude":2.337833,
+				"latitude":48.871083
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"b31b8ccb-c2a6-488d-9a98-8d5e159a637a",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1832-12-30T00:00:00.000Z",
+			"end":"1832-12-30T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Conservatoire de Paris",
+			"adresse":"rue Bergère,75009 Paris",
+			"coordinates":{
+				"longitude":2.3468,
+				"latitude":48.8723
+			},
+			"typeareas":"Educational institution"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"b71ca3ab-2e7a-49f6-85ba-8f71207b7219",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1894-02-17T00:00:00.000Z",
+			"end":"1894-02-17T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Société nationale de musique",
+			"adresse":"184 rue du Faubourg-Saint-Denis,75010 Paris",
+			"coordinates":{
+				"longitude":2.35795,
+				"latitude":48.8807
+			},
+			"typeareas":"Other"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[stage performance]",
+		"_id":"bf1bcadf-c8b5-4d6e-ba17-6abf42176a38",
+		"typeevents":"Other",
+		"lifeSpan":{
+			"begin":"1901-02-07T00:00:00.000Z",
+			"end":"1901-02-07T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Salle des Fêtes",
+			"adresse":null,
+			"coordinates":{
+				"longitude":0,
+				"latitude":0
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"bfe89929-f43e-434e-824a-a5a9ac3a695f",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1906-01-21T00:00:00.000Z",
+			"end":"1906-01-21T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Théâtre du Châtelet",
+			"adresse":"1 place du Châtelet,75001 Paris",
+			"coordinates":{
+				"longitude":2.346389,
+				"latitude":48.857778
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert] Cercle Musical de Paris",
+		"_id":"c099a4be-acd4-4cf7-a076-4d2995150224",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1908-12-18T00:00:00.000Z",
+			"end":"1908-12-18T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Hôtel de la Société française de photographie",
+			"adresse":"51 rue de Clichy,75009 Paris",
+			"coordinates":{
+				"longitude":2.328612,
+				"latitude":48.880705
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[stage performance]",
+		"_id":"c2dd38f7-6bc8-4982-ae89-012af8fc81a6",
+		"typeevents":"Stage performance",
+		"lifeSpan":{
+			"begin":"1830-04-23T00:00:00.000Z",
+			"end":"1830-04-23T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Salle Ventadour",
+			"adresse":"rue Méhul,75002 Paris",
+			"coordinates":{
+				"longitude":2.33485,
+				"latitude":48.8677
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"Nouveaux Concerts",
+		"_id":"cc067cc6-1107-4b44-809c-01f4aa7f053a",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1881-10-23T00:00:00.000Z",
+			"end":"1881-10-23T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Alhambra-Maurice Chevalier",
+			"adresse":"50 rue de Malte,75011 Paris",
+			"coordinates":{
+				"longitude":2.3667,
+				"latitude":48.8671
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"d55009ce-6df3-45a5-9deb-8a7b5ebc5cd9",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1840-02-11T00:00:00.000Z",
+			"end":"1840-02-11T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Salle de la Bourse",
+			"adresse":"rue Vivienne,2nd arr.,Paris,France",
+			"coordinates":{
+				"longitude":0,
+				"latitude":0
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"e3d0f42d-a130-464a-94f4-e56c01d12d1c",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1868-05-13T00:00:00.000Z",
+			"end":"1868-05-13T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Salle Pleyel",
+			"adresse":"22 rue de Rochechouart,75009 Paris",
+			"coordinates":{
+				"longitude":2.344971,
+				"latitude":48.877889
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"eab3af79-b04b-46fc-b1b7-cd65aea8c817",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1884-06-27T00:00:00.000Z",
+			"end":"1884-06-27T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Institut de France",
+			"adresse":"23 quai de Conti,75270 Paris",
+			"coordinates":{
+				"longitude":2.336903,
+				"latitude":48.857242
+			},
+			"typeareas":"Other"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"ecfa64ba-6c28-4073-89ad-edf935d494ec",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1904-01-09T00:00:00.000Z",
+			"end":"1904-01-09T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Société nationale de musique",
+			"adresse":"184 rue du Faubourg-Saint-Denis,75010 Paris",
+			"coordinates":{
+				"longitude":2.35795,
+				"latitude":48.8807
+			},
+			"typeareas":"Other"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"f553aee6-2ad4-4f14-a3e3-1dc4c2cb946a",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1900-03-17T00:00:00.000Z",
+			"end":"1900-03-17T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Salle Pleyel",
+			"adresse":"22 rue de Rochechouart,75009 Paris",
+			"coordinates":{
+				"longitude":2.344971,
+				"latitude":48.877889
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[stage performance]",
+		"_id":"f8af696c-e583-4107-b9e3-5b272c5d0c5f",
+		"typeevents":"Stage performance",
+		"lifeSpan":{
+			"begin":"1779-12-14T00:00:00.000Z",
+			"end":"1779-12-14T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Théâtre du Palais-Royal",
+			"adresse":"Rue Saint-Honoré,75001 Paris",
+			"coordinates":{
+				"longitude":2.337846,
+				"latitude":48.862967
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"[concert]",
+		"_id":"fb8216e7-5606-44e2-a551-4a7d5cab8d59",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"1909-03-11T00:00:00.000Z",
+			"end":"1909-03-11T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Salle de l'Université des arts",
+			"adresse":null,
+			"coordinates":{
+				"longitude":0,
+				"latitude":0
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"GUTS World Tour: Paris",
+		"_id":"1ced6cb3-aa7b-40a5-98f3-444fa1a209eb",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"2024-06-14T00:00:00.000Z",
+			"end":"2024-06-14T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Accor Arena",
+			"adresse":"8 boulevard de Bercy,75012 Paris,France",
+			"coordinates":{
+				"longitude":2.378599,
+				"latitude":48.838541
+			},
+			"typeareas":"Indoor arena"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"The Eras Tour: Paris",
+		"_id":"6866f88b-1b6d-411c-a7a5-130fd2a75e6f",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"2024-05-11T00:00:00.000Z",
+			"end":"2024-05-11T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Paris La Défense Arena",
+			"adresse":"99 Jardins de l’Arche,92000 Nanterre",
+			"coordinates":{
+				"longitude":2.230203,
+				"latitude":48.895844
+			},
+			"typeareas":"Stadium"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"Pause Guitare Sud de France 2024,Day 2: Grand Théâtre",
+		"_id":"32b1124b-25b3-4e5c-a1c7-696aeaeb81aa",
+		"typeevents":"Festival",
+		"lifeSpan":{
+			"begin":"2024-07-03T00:00:00.000Z",
+			"end":"2024-07-03T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Grand Théâtre des Cordeliers",
+			"adresse":"Place de l'Amitié entre Peuples,Rue des Cordeliers,81000 Albi,France",
+			"coordinates":{
+				"longitude":2.141929,
+				"latitude":43.924081
+			},
+			"typeareas":"Concert hall / Theatre"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"Pause Guitare Sud de France 2024",
+		"_id":"45435bc7-bdec-441b-809e-e7eb81b7a54a",
+		"typeevents":"Festival",
+		"lifeSpan":{
+			"begin":"2024-07-02T00:00:00.000Z",
+			"end":"2024-07-07T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Albi",
+			"adresse":null,
+			"coordinates":{
+				"longitude":0,
+				"latitude":0
+			},
+			"typeareas":"City"
+		},
+		"urls":[]
+	},
+	{
+		"nom":"X’s World Tour: Lyon",
+		"_id":"c5701462-62ba-43cc-83e0-07ff4fad8275",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"2024-11-17T00:00:00.000Z",
+			"end":"2024-11-17T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Halle Tony Garnier",
+			"adresse":"20 Place docteurs Charles et Christophe Mérieux,69007",
+			"coordinates":{
+				"longitude":4.824944,
+				"latitude":45.729889
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"660102589fcf9d660cded055"
+		}]
+	},
+	{
+		"nom":"The Scarlet Tour: Paris",
+		"_id":"45918df2-07c7-4bac-8ddf-9fdfda4c10e6",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"2024-06-21T00:00:00.000Z",
+			"end":"2024-06-21T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Accor Arena",
+			"adresse":"8 boulevard de Bercy,75012 Paris,France",
+			"coordinates":{
+				"longitude":2.378599,
+				"latitude":48.838541
+			},
+			"typeareas":"Indoor arena"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"660102599fcf9d660cded07c"
+		}]
+	},
+	{
+		"nom":"X’s World Tour: Paris",
+		"_id":"80b3c959-25ce-4a9d-ba24-899afeea49ce",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"2024-11-16T00:00:00.000Z",
+			"end":"2024-11-16T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Accor Arena",
+			"adresse":"8 boulevard de Bercy,75012 Paris,France",
+			"coordinates":{
+				"longitude":2.378599,
+				"latitude":48.838541
+			},
+			"typeareas":"Indoor arena"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"660102599fcf9d660cded09c"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"660102599fcf9d660cded09d"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"660102599fcf9d660cded09e"
+		}]
+	},
+	{
+		"nom":"Pause Guitare Sud de France 2024,Day 4",
+		"_id":"828f289b-e45e-493f-9017-e4704c5832eb",
+		"typeevents":"Festival",
+		"lifeSpan":{
+			"begin":"2024-07-05T00:00:00.000Z",
+			"end":"2024-07-05T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Albi",
+			"adresse":null,
+			"coordinates":{
+				"longitude":0,
+				"latitude":0
+			},
+			"typeareas":"City"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"660102599fcf9d660cded0b5"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"660102599fcf9d660cded0b6"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"660102599fcf9d660cded0b7"
+		}]
+	},
+	{
+		"nom":"Pause Guitare Sud de France 2024,Day 2",
+		"_id":"849f9ffd-2904-4d5e-ac65-8012850ba696",
+		"typeevents":"Festival",
+		"lifeSpan":{
+			"begin":"2024-07-03T00:00:00.000Z",
+			"end":"2024-07-03T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Albi",
+			"adresse":null,
+			"coordinates":{
+				"longitude":0,
+				"latitude":0
+			},
+			"typeareas":"City"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"660102599fcf9d660cded0d8"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"660102599fcf9d660cded0d9"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"660102599fcf9d660cded0da"
+		}]
+	},
+	{
+		"nom":"Pause Guitare Sud de France 2024,Day 3",
+		"_id":"894a564a-dcb9-44be-aef8-1f1830b76e6d",
+		"typeevents":"Festival",
+		"lifeSpan":{
+			"begin":"2024-07-04T00:00:00.000Z",
+			"end":"2024-07-04T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Albi",
+			"adresse":null,
+			"coordinates":{
+				"longitude":0,
+				"latitude":0
+			},
+			"typeareas":"City"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"660102599fcf9d660cded11a"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"660102599fcf9d660cded11b"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"660102599fcf9d660cded11c"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"660102599fcf9d660cded11d"
+		}]
+	},
+	{
+		"nom":"Hellfest 2024",
+		"_id":"d1bd6d40-55f6-4e1a-91df-4c9395f95401",
+		"typeevents":"Festival",
+		"lifeSpan":{
+			"begin":"2024-06-27T00:00:00.000Z",
+			"end":"2024-06-30T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Hellfest,Val de Moine",
+			"adresse":"Rue Pierre de Coubertin,44190 Clisson",
+			"coordinates":{
+				"longitude":-1.269166,
+				"latitude":47.092184
+			},
+			"typeareas":"Other"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"660102599fcf9d660cded12f"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"660102599fcf9d660cded130"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"660102599fcf9d660cded131"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"660102599fcf9d660cded132"
+		}]
+	},
+	{
+		"nom":"Pause Guitare Sud de France 2024,Day 6",
+		"_id":"8e6b0f16-8a51-4244-8c9b-c6d11c0e81fb",
+		"typeevents":"Festival",
+		"lifeSpan":{
+			"begin":"2024-07-07T00:00:00.000Z",
+			"end":"2024-07-07T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Albi",
+			"adresse":null,
+			"coordinates":{
+				"longitude":0,
+				"latitude":0
+			},
+			"typeareas":"City"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"660102599fcf9d660cded14b"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"660102599fcf9d660cded14c"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"660102599fcf9d660cded14d"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"660102599fcf9d660cded14e"
+		}]
+	},
+	{
+		"nom":"Pause Guitare Sud de France 2024,Day 1",
+		"_id":"d20043c4-7788-478a-80c3-bef960b7068b",
+		"typeevents":"Festival",
+		"lifeSpan":{
+			"begin":"2024-07-02T00:00:00.000Z",
+			"end":"2024-07-02T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Albi",
+			"adresse":null,
+			"coordinates":{
+				"longitude":0,
+				"latitude":0
+			},
+			"typeareas":"City"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"660102599fcf9d660cded156"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"660102599fcf9d660cded157"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"660102599fcf9d660cded158"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"660102599fcf9d660cded159"
+		}]
+	},
+	{
+		"nom":"Pause Guitare Sud de France 2024,Day 1: Grand Théâtre",
+		"_id":"952bac56-e912-4d0d-8ea3-f6d8db96febc",
+		"typeevents":"Festival",
+		"lifeSpan":{
+			"begin":"2024-07-02T00:00:00.000Z",
+			"end":"2024-07-02T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Grand Théâtre des Cordeliers",
+			"adresse":"Place de l'Amitié entre Peuples,Rue des Cordeliers,81000 Albi,France",
+			"coordinates":{
+				"longitude":2.141929,
+				"latitude":43.924081
+			},
+			"typeareas":"Concert hall / Theatre"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"660102599fcf9d660cded17c"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"660102599fcf9d660cded17d"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"660102599fcf9d660cded17e"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"660102599fcf9d660cded17f"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"660102599fcf9d660cded180"
+		}]
+	},
+	{
+		"nom":"Pause Guitare Sud de France 2024,Day 5",
+		"_id":"9e2be6db-6f0b-4bde-8865-1946138cae95",
+		"typeevents":"Festival",
+		"lifeSpan":{
+			"begin":"2024-07-06T00:00:00.000Z",
+			"end":"2024-07-06T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Albi",
+			"adresse":null,
+			"coordinates":{
+				"longitude":0,
+				"latitude":0
+			},
+			"typeareas":"City"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"6601025a9fcf9d660cded19c"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"6601025a9fcf9d660cded19d"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"6601025a9fcf9d660cded19e"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"6601025a9fcf9d660cded19f"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"6601025a9fcf9d660cded1a0"
+		}]
+	},
+	{
+		"nom":"The Saviors Tour: Paris",
+		"_id":"669f9500-e0b5-4de2-ba67-fb93fe2460f0",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"2024-06-18T00:00:00.000Z",
+			"end":"2024-06-18T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Accor Arena",
+			"adresse":"8 boulevard de Bercy,75012 Paris,France",
+			"coordinates":{
+				"longitude":2.378599,
+				"latitude":48.838541
+			},
+			"typeareas":"Indoor arena"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"6601025a9fcf9d660cded1ab"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"6601025a9fcf9d660cded1ac"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"6601025a9fcf9d660cded1ad"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"6601025a9fcf9d660cded1ae"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"6601025a9fcf9d660cded1af"
+		}]
+	},
+	{
+		"nom":"Pause Guitare Sud de France 2024,Day 3: Grand Scène de Pratgraussals",
+		"_id":"a5607f1b-764d-47c7-b057-c467ec6f0c14",
+		"typeevents":"Festival",
+		"lifeSpan":{
+			"begin":"2024-07-04T00:00:00.000Z",
+			"end":"2024-07-05T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Grand Scène de Pratgraussals",
+			"adresse":null,
+			"coordinates":{
+				"longitude":0,
+				"latitude":0
+			},
+			"typeareas":"Festival stage"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"6601025a9fcf9d660cded1e7"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"6601025a9fcf9d660cded1e8"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"6601025a9fcf9d660cded1e9"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"6601025a9fcf9d660cded1ea"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"6601025a9fcf9d660cded1eb"
+		}]
+	},
+	{
+		"nom":"Think Later World Tour: Paris",
+		"_id":"c4ea506e-4591-4ff0-9e78-a3bd451cd847",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"2024-05-17T00:00:00.000Z",
+			"end":"2024-05-17T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Zénith de Paris",
+			"adresse":"211 avenue Jean Jaurès,75019 Paris",
+			"coordinates":{
+				"longitude":2.393217,
+				"latitude":48.894214
+			},
+			"typeareas":"Indoor arena"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"6601025a9fcf9d660cded1f6"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"6601025a9fcf9d660cded1f7"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"6601025a9fcf9d660cded1f8"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"6601025a9fcf9d660cded1f9"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"6601025a9fcf9d660cded1fa"
+		}]
+	},
+	{
+		"nom":"The Eras Tour: Paris",
+		"_id":"c7457d21-772d-422e-8167-6f968a698dad",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"2024-05-10T00:00:00.000Z",
+			"end":"2024-05-10T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Paris La Défense Arena",
+			"adresse":"99 Jardins de l’Arche,92000 Nanterre",
+			"coordinates":{
+				"longitude":2.230203,
+				"latitude":48.895844
+			},
+			"typeareas":"Stadium"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"6601025a9fcf9d660cded24a"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"6601025a9fcf9d660cded24b"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"6601025a9fcf9d660cded24c"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"6601025a9fcf9d660cded24d"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"6601025a9fcf9d660cded24e"
+		}]
+	},
+	{
+		"nom":"Tachka at Fort du bruissin",
+		"_id":"23036e62-4a9e-426a-8d6d-ddcc3ab06b31",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"2024-04-11T00:00:00.000Z",
+			"end":"2024-04-11T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Fort du Bruissin",
+			"adresse":"Rue du Château d’eau",
+			"coordinates":{
+				"longitude":4.73897,
+				"latitude":45.73055
+			},
+			"typeareas":"Venue"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"6601025a9fcf9d660cded260"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"6601025a9fcf9d660cded261"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"6601025a9fcf9d660cded262"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"6601025a9fcf9d660cded263"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"6601025a9fcf9d660cded264"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602757",
+			"_id":"6601025a9fcf9d660cded265"
+		}]
+	},
+	{
+		"nom":"Heavy Weekend 2024,Day 1",
+		"_id":"28b7f4ca-19f0-41d3-9307-9be4be2a4a5e",
+		"typeevents":"Festival",
+		"lifeSpan":{
+			"begin":"2024-06-21T00:00:00.000Z",
+			"end":"2024-06-21T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Zénith de Nancy",
+			"adresse":null,
+			"coordinates":{
+				"longitude":6.13923,
+				"latitude":48.71
+			},
+			"typeareas":"Amphitheatre"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"6601025a9fcf9d660cded28c"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"6601025a9fcf9d660cded28d"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"6601025a9fcf9d660cded28e"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"6601025a9fcf9d660cded28f"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"6601025a9fcf9d660cded290"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602757",
+			"_id":"6601025a9fcf9d660cded291"
+		}]
+	},
+	{
+		"nom":"Pink Friday 2 World Tour: Paris",
+		"_id":"2fff5f3a-8a11-457b-b0dc-610c4c30a58d",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"2024-06-01T00:00:00.000Z",
+			"end":"2024-06-01T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Accor Arena",
+			"adresse":"8 boulevard de Bercy,75012 Paris,France",
+			"coordinates":{
+				"longitude":2.378599,
+				"latitude":48.838541
+			},
+			"typeareas":"Indoor arena"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"6601025b9fcf9d660cded2f0"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"6601025b9fcf9d660cded2f1"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"6601025b9fcf9d660cded2f2"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"6601025b9fcf9d660cded2f3"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"6601025b9fcf9d660cded2f4"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602757",
+			"_id":"6601025b9fcf9d660cded2f5"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.mymusictaste.com/project/413499340abd11eea9be0a58a9feac02/",
+			"_id":"6601025b9fcf9d660cded2f6"
+		},
+		{
+			"type":"Other",
+			"nom":"poster",
+			"url":"https://prodmsamedia.mymusictaste.com/cshopproject/images/3429b1f60f6311eebdec0a58a9feac02.jpeg",
+			"_id":"6601025b9fcf9d660cded2f7"
+		},
+		{
+			"type":"db",
+			"nom":"setlistfm",
+			"url":"https://www.setlist.fm/setlist/odd-eye-circle/2023/salle-pleyel-paris-france-2ba450da.html",
+			"_id":"6601025b9fcf9d660cded2f8"
+		}]
+	},
+	{
+		"nom":"The Eras Tour: Lyon",
+		"_id":"334d910a-2b05-4e46-8672-793c4ae2205b",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"2024-06-02T00:00:00.000Z",
+			"end":"2024-06-02T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Groupama Stadium",
+			"adresse":"10 Avenue Simone Veil,69150 Décines-Charpieu",
+			"coordinates":{
+				"longitude":4.982128,
+				"latitude":45.765263
+			},
+			"typeareas":"Stadium"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"6601025b9fcf9d660cded326"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"6601025b9fcf9d660cded327"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"6601025b9fcf9d660cded328"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"6601025b9fcf9d660cded329"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"6601025b9fcf9d660cded32a"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602757",
+			"_id":"6601025b9fcf9d660cded32b"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.mymusictaste.com/project/413499340abd11eea9be0a58a9feac02/",
+			"_id":"6601025b9fcf9d660cded32c"
+		},
+		{
+			"type":"Other",
+			"nom":"poster",
+			"url":"https://prodmsamedia.mymusictaste.com/cshopproject/images/3429b1f60f6311eebdec0a58a9feac02.jpeg",
+			"_id":"6601025b9fcf9d660cded32d"
+		},
+		{
+			"type":"db",
+			"nom":"setlistfm",
+			"url":"https://www.setlist.fm/setlist/odd-eye-circle/2023/salle-pleyel-paris-france-2ba450da.html",
+			"_id":"6601025b9fcf9d660cded32e"
+		}]
+	},
+	{
+		"nom":"Pink Friday 2 World Tour: Paris",
+		"_id":"6ef08568-b78a-4d46-9cf1-ea058e569185",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"2024-06-09T00:00:00.000Z",
+			"end":"2024-06-09T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Accor Arena",
+			"adresse":"8 boulevard de Bercy,75012 Paris,France",
+			"coordinates":{
+				"longitude":2.378599,
+				"latitude":48.838541
+			},
+			"typeareas":"Indoor arena"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"6601025b9fcf9d660cded38a"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"6601025b9fcf9d660cded38b"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"6601025b9fcf9d660cded38c"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"6601025b9fcf9d660cded38d"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"6601025b9fcf9d660cded38e"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602757",
+			"_id":"6601025b9fcf9d660cded38f"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.mymusictaste.com/project/413499340abd11eea9be0a58a9feac02/",
+			"_id":"6601025b9fcf9d660cded390"
+		},
+		{
+			"type":"Other",
+			"nom":"poster",
+			"url":"https://prodmsamedia.mymusictaste.com/cshopproject/images/3429b1f60f6311eebdec0a58a9feac02.jpeg",
+			"_id":"6601025b9fcf9d660cded391"
+		},
+		{
+			"type":"db",
+			"nom":"setlistfm",
+			"url":"https://www.setlist.fm/setlist/odd-eye-circle/2023/salle-pleyel-paris-france-2ba450da.html",
+			"_id":"6601025b9fcf9d660cded392"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602697",
+			"_id":"6601025b9fcf9d660cded393"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.le-fil.com/concert/arthur-h/",
+			"_id":"6601025b9fcf9d660cded394"
+		}]
+	},
+	{
+		"nom":"The Eras Tour: Lyon",
+		"_id":"8fbeb8ff-1f0e-48ac-9cf6-514934cdcfe5",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"2024-06-03T00:00:00.000Z",
+			"end":"2024-06-03T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Groupama Stadium",
+			"adresse":"10 Avenue Simone Veil,69150 Décines-Charpieu",
+			"coordinates":{
+				"longitude":4.982128,
+				"latitude":45.765263
+			},
+			"typeareas":"Stadium"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"6601025c9fcf9d660cded437"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"6601025c9fcf9d660cded438"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"6601025c9fcf9d660cded439"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"6601025c9fcf9d660cded43a"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"6601025c9fcf9d660cded43b"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602757",
+			"_id":"6601025c9fcf9d660cded43c"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.mymusictaste.com/project/413499340abd11eea9be0a58a9feac02/",
+			"_id":"6601025c9fcf9d660cded43d"
+		},
+		{
+			"type":"Other",
+			"nom":"poster",
+			"url":"https://prodmsamedia.mymusictaste.com/cshopproject/images/3429b1f60f6311eebdec0a58a9feac02.jpeg",
+			"_id":"6601025c9fcf9d660cded43e"
+		},
+		{
+			"type":"db",
+			"nom":"setlistfm",
+			"url":"https://www.setlist.fm/setlist/odd-eye-circle/2023/salle-pleyel-paris-france-2ba450da.html",
+			"_id":"6601025c9fcf9d660cded43f"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602697",
+			"_id":"6601025c9fcf9d660cded440"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.le-fil.com/concert/arthur-h/",
+			"_id":"6601025c9fcf9d660cded441"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/1029031580",
+			"_id":"6601025c9fcf9d660cded442"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.manufacturechanson.org/concerts/",
+			"_id":"6601025c9fcf9d660cded443"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602445",
+			"_id":"6601025c9fcf9d660cded444"
+		}]
+	},
+	{
+		"nom":"The Saviors Tour: Lyon",
+		"_id":"913c5dcf-7da7-4095-9987-320a89f63349",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"2024-06-05T00:00:00.000Z",
+			"end":"2024-06-05T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"LDLC Arena",
+			"adresse":null,
+			"coordinates":{
+				"longitude":4.979854,
+				"latitude":45.76936
+			},
+			"typeareas":"Indoor arena"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"6601025c9fcf9d660cded455"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"6601025c9fcf9d660cded456"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"6601025c9fcf9d660cded457"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"6601025c9fcf9d660cded458"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"6601025c9fcf9d660cded459"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602757",
+			"_id":"6601025c9fcf9d660cded45a"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.mymusictaste.com/project/413499340abd11eea9be0a58a9feac02/",
+			"_id":"6601025c9fcf9d660cded45b"
+		},
+		{
+			"type":"Other",
+			"nom":"poster",
+			"url":"https://prodmsamedia.mymusictaste.com/cshopproject/images/3429b1f60f6311eebdec0a58a9feac02.jpeg",
+			"_id":"6601025c9fcf9d660cded45c"
+		},
+		{
+			"type":"db",
+			"nom":"setlistfm",
+			"url":"https://www.setlist.fm/setlist/odd-eye-circle/2023/salle-pleyel-paris-france-2ba450da.html",
+			"_id":"6601025c9fcf9d660cded45d"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602697",
+			"_id":"6601025c9fcf9d660cded45e"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.le-fil.com/concert/arthur-h/",
+			"_id":"6601025c9fcf9d660cded45f"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/1029031580",
+			"_id":"6601025c9fcf9d660cded460"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.manufacturechanson.org/concerts/",
+			"_id":"6601025c9fcf9d660cded461"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602445",
+			"_id":"6601025c9fcf9d660cded462"
+		}]
+	},
+	{
+		"nom":"Music of the Spheres World Tour: Lyon",
+		"_id":"9321de69-2d77-4146-a6ae-32cad7f7e5e6",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"2024-06-22T00:00:00.000Z",
+			"end":"2024-06-22T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Groupama Stadium",
+			"adresse":"10 Avenue Simone Veil,69150 Décines-Charpieu",
+			"coordinates":{
+				"longitude":4.982128,
+				"latitude":45.765263
+			},
+			"typeareas":"Stadium"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"6601025c9fcf9d660cded46d"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"6601025c9fcf9d660cded46e"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"6601025c9fcf9d660cded46f"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"6601025c9fcf9d660cded470"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"6601025c9fcf9d660cded471"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602757",
+			"_id":"6601025c9fcf9d660cded472"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.mymusictaste.com/project/413499340abd11eea9be0a58a9feac02/",
+			"_id":"6601025c9fcf9d660cded473"
+		},
+		{
+			"type":"Other",
+			"nom":"poster",
+			"url":"https://prodmsamedia.mymusictaste.com/cshopproject/images/3429b1f60f6311eebdec0a58a9feac02.jpeg",
+			"_id":"6601025c9fcf9d660cded474"
+		},
+		{
+			"type":"db",
+			"nom":"setlistfm",
+			"url":"https://www.setlist.fm/setlist/odd-eye-circle/2023/salle-pleyel-paris-france-2ba450da.html",
+			"_id":"6601025c9fcf9d660cded475"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602697",
+			"_id":"6601025c9fcf9d660cded476"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.le-fil.com/concert/arthur-h/",
+			"_id":"6601025c9fcf9d660cded477"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/1029031580",
+			"_id":"6601025c9fcf9d660cded478"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.manufacturechanson.org/concerts/",
+			"_id":"6601025c9fcf9d660cded479"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602445",
+			"_id":"6601025c9fcf9d660cded47a"
+		}]
+	},
+	{
+		"nom":"Heavy Weekend 2024",
+		"_id":"945b7b68-9499-4508-8913-463d62da03cf",
+		"typeevents":"Festival",
+		"lifeSpan":{
+			"begin":"2024-06-21T00:00:00.000Z",
+			"end":"2024-06-23T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Zénith de Nancy",
+			"adresse":null,
+			"coordinates":{
+				"longitude":6.13923,
+				"latitude":48.71
+			},
+			"typeareas":"Amphitheatre"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"6601025c9fcf9d660cded485"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"6601025c9fcf9d660cded486"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"6601025c9fcf9d660cded487"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"6601025c9fcf9d660cded488"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"6601025c9fcf9d660cded489"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602757",
+			"_id":"6601025c9fcf9d660cded48a"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.mymusictaste.com/project/413499340abd11eea9be0a58a9feac02/",
+			"_id":"6601025c9fcf9d660cded48b"
+		},
+		{
+			"type":"Other",
+			"nom":"poster",
+			"url":"https://prodmsamedia.mymusictaste.com/cshopproject/images/3429b1f60f6311eebdec0a58a9feac02.jpeg",
+			"_id":"6601025c9fcf9d660cded48c"
+		},
+		{
+			"type":"db",
+			"nom":"setlistfm",
+			"url":"https://www.setlist.fm/setlist/odd-eye-circle/2023/salle-pleyel-paris-france-2ba450da.html",
+			"_id":"6601025c9fcf9d660cded48d"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602697",
+			"_id":"6601025c9fcf9d660cded48e"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.le-fil.com/concert/arthur-h/",
+			"_id":"6601025c9fcf9d660cded48f"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/1029031580",
+			"_id":"6601025c9fcf9d660cded490"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.manufacturechanson.org/concerts/",
+			"_id":"6601025c9fcf9d660cded491"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602445",
+			"_id":"6601025c9fcf9d660cded492"
+		}]
+	},
+	{
+		"nom":"The Eras Tour: Paris",
+		"_id":"95263445-d518-405b-9357-053849456b6c",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"2024-05-09T00:00:00.000Z",
+			"end":"2024-05-09T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Paris La Défense Arena",
+			"adresse":"99 Jardins de l’Arche,92000 Nanterre",
+			"coordinates":{
+				"longitude":2.230203,
+				"latitude":48.895844
+			},
+			"typeareas":"Stadium"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"6601025c9fcf9d660cded49d"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"6601025c9fcf9d660cded49e"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"6601025c9fcf9d660cded49f"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"6601025c9fcf9d660cded4a0"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"6601025c9fcf9d660cded4a1"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602757",
+			"_id":"6601025c9fcf9d660cded4a2"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.mymusictaste.com/project/413499340abd11eea9be0a58a9feac02/",
+			"_id":"6601025c9fcf9d660cded4a3"
+		},
+		{
+			"type":"Other",
+			"nom":"poster",
+			"url":"https://prodmsamedia.mymusictaste.com/cshopproject/images/3429b1f60f6311eebdec0a58a9feac02.jpeg",
+			"_id":"6601025c9fcf9d660cded4a4"
+		},
+		{
+			"type":"db",
+			"nom":"setlistfm",
+			"url":"https://www.setlist.fm/setlist/odd-eye-circle/2023/salle-pleyel-paris-france-2ba450da.html",
+			"_id":"6601025c9fcf9d660cded4a5"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602697",
+			"_id":"6601025c9fcf9d660cded4a6"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.le-fil.com/concert/arthur-h/",
+			"_id":"6601025c9fcf9d660cded4a7"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/1029031580",
+			"_id":"6601025c9fcf9d660cded4a8"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.manufacturechanson.org/concerts/",
+			"_id":"6601025c9fcf9d660cded4a9"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602445",
+			"_id":"6601025c9fcf9d660cded4aa"
+		}]
+	},
+	{
+		"nom":"GUTS World Tour: Paris",
+		"_id":"9a17bf3c-abe1-4dea-bc81-f2b65745584d",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"2024-06-15T00:00:00.000Z",
+			"end":"2024-06-15T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Accor Arena",
+			"adresse":"8 boulevard de Bercy,75012 Paris,France",
+			"coordinates":{
+				"longitude":2.378599,
+				"latitude":48.838541
+			},
+			"typeareas":"Indoor arena"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"6601025c9fcf9d660cded4eb"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"6601025c9fcf9d660cded4ec"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"6601025c9fcf9d660cded4ed"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"6601025c9fcf9d660cded4ee"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"6601025c9fcf9d660cded4ef"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602757",
+			"_id":"6601025c9fcf9d660cded4f0"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.mymusictaste.com/project/413499340abd11eea9be0a58a9feac02/",
+			"_id":"6601025c9fcf9d660cded4f1"
+		},
+		{
+			"type":"Other",
+			"nom":"poster",
+			"url":"https://prodmsamedia.mymusictaste.com/cshopproject/images/3429b1f60f6311eebdec0a58a9feac02.jpeg",
+			"_id":"6601025c9fcf9d660cded4f2"
+		},
+		{
+			"type":"db",
+			"nom":"setlistfm",
+			"url":"https://www.setlist.fm/setlist/odd-eye-circle/2023/salle-pleyel-paris-france-2ba450da.html",
+			"_id":"6601025c9fcf9d660cded4f3"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602697",
+			"_id":"6601025c9fcf9d660cded4f4"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.le-fil.com/concert/arthur-h/",
+			"_id":"6601025c9fcf9d660cded4f5"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/1029031580",
+			"_id":"6601025c9fcf9d660cded4f6"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.manufacturechanson.org/concerts/",
+			"_id":"6601025c9fcf9d660cded4f7"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602445",
+			"_id":"6601025c9fcf9d660cded4f8"
+		}]
+	},
+	{
+		"nom":"Heavy Weekend 2024,Day 3",
+		"_id":"9d05828a-9e3d-4917-87ab-1a37dddec7f0",
+		"typeevents":"Festival",
+		"lifeSpan":{
+			"begin":"2024-06-23T00:00:00.000Z",
+			"end":"2024-06-23T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Zénith de Nancy",
+			"adresse":null,
+			"coordinates":{
+				"longitude":6.13923,
+				"latitude":48.71
+			},
+			"typeareas":"Amphitheatre"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"6601025d9fcf9d660cded503"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"6601025d9fcf9d660cded504"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"6601025d9fcf9d660cded505"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"6601025d9fcf9d660cded506"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"6601025d9fcf9d660cded507"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602757",
+			"_id":"6601025d9fcf9d660cded508"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.mymusictaste.com/project/413499340abd11eea9be0a58a9feac02/",
+			"_id":"6601025d9fcf9d660cded509"
+		},
+		{
+			"type":"Other",
+			"nom":"poster",
+			"url":"https://prodmsamedia.mymusictaste.com/cshopproject/images/3429b1f60f6311eebdec0a58a9feac02.jpeg",
+			"_id":"6601025d9fcf9d660cded50a"
+		},
+		{
+			"type":"db",
+			"nom":"setlistfm",
+			"url":"https://www.setlist.fm/setlist/odd-eye-circle/2023/salle-pleyel-paris-france-2ba450da.html",
+			"_id":"6601025d9fcf9d660cded50b"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602697",
+			"_id":"6601025d9fcf9d660cded50c"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.le-fil.com/concert/arthur-h/",
+			"_id":"6601025d9fcf9d660cded50d"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/1029031580",
+			"_id":"6601025d9fcf9d660cded50e"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.manufacturechanson.org/concerts/",
+			"_id":"6601025d9fcf9d660cded50f"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602445",
+			"_id":"6601025d9fcf9d660cded510"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104949276",
+			"_id":"6601025d9fcf9d660cded511"
+		}]
+	},
+	{
+		"nom":"Heavy Weekend 2024,Day 2",
+		"_id":"a014fc52-b3fd-439d-a92d-76fe52639bfa",
+		"typeevents":"Festival",
+		"lifeSpan":{
+			"begin":"2024-06-22T00:00:00.000Z",
+			"end":"2024-06-22T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Zénith de Nancy",
+			"adresse":null,
+			"coordinates":{
+				"longitude":6.13923,
+				"latitude":48.71
+			},
+			"typeareas":"Amphitheatre"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"6601025d9fcf9d660cded51c"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"6601025d9fcf9d660cded51d"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"6601025d9fcf9d660cded51e"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"6601025d9fcf9d660cded51f"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"6601025d9fcf9d660cded520"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602757",
+			"_id":"6601025d9fcf9d660cded521"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.mymusictaste.com/project/413499340abd11eea9be0a58a9feac02/",
+			"_id":"6601025d9fcf9d660cded522"
+		},
+		{
+			"type":"Other",
+			"nom":"poster",
+			"url":"https://prodmsamedia.mymusictaste.com/cshopproject/images/3429b1f60f6311eebdec0a58a9feac02.jpeg",
+			"_id":"6601025d9fcf9d660cded523"
+		},
+		{
+			"type":"db",
+			"nom":"setlistfm",
+			"url":"https://www.setlist.fm/setlist/odd-eye-circle/2023/salle-pleyel-paris-france-2ba450da.html",
+			"_id":"6601025d9fcf9d660cded524"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602697",
+			"_id":"6601025d9fcf9d660cded525"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.le-fil.com/concert/arthur-h/",
+			"_id":"6601025d9fcf9d660cded526"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/1029031580",
+			"_id":"6601025d9fcf9d660cded527"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.manufacturechanson.org/concerts/",
+			"_id":"6601025d9fcf9d660cded528"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602445",
+			"_id":"6601025d9fcf9d660cded529"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104949276",
+			"_id":"6601025d9fcf9d660cded52a"
+		}]
+	},
+	{
+		"nom":"Music of the Spheres World Tour: Lyon",
+		"_id":"a1e6b62a-39a3-45b5-8f87-0d79f13cea12",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"2024-06-23T00:00:00.000Z",
+			"end":"2024-06-23T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Groupama Stadium",
+			"adresse":"10 Avenue Simone Veil,69150 Décines-Charpieu",
+			"coordinates":{
+				"longitude":4.982128,
+				"latitude":45.765263
+			},
+			"typeareas":"Stadium"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"6601025d9fcf9d660cded535"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"6601025d9fcf9d660cded536"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"6601025d9fcf9d660cded537"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"6601025d9fcf9d660cded538"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"6601025d9fcf9d660cded539"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602757",
+			"_id":"6601025d9fcf9d660cded53a"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.mymusictaste.com/project/413499340abd11eea9be0a58a9feac02/",
+			"_id":"6601025d9fcf9d660cded53b"
+		},
+		{
+			"type":"Other",
+			"nom":"poster",
+			"url":"https://prodmsamedia.mymusictaste.com/cshopproject/images/3429b1f60f6311eebdec0a58a9feac02.jpeg",
+			"_id":"6601025d9fcf9d660cded53c"
+		},
+		{
+			"type":"db",
+			"nom":"setlistfm",
+			"url":"https://www.setlist.fm/setlist/odd-eye-circle/2023/salle-pleyel-paris-france-2ba450da.html",
+			"_id":"6601025d9fcf9d660cded53d"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602697",
+			"_id":"6601025d9fcf9d660cded53e"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.le-fil.com/concert/arthur-h/",
+			"_id":"6601025d9fcf9d660cded53f"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/1029031580",
+			"_id":"6601025d9fcf9d660cded540"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.manufacturechanson.org/concerts/",
+			"_id":"6601025d9fcf9d660cded541"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602445",
+			"_id":"6601025d9fcf9d660cded542"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104949276",
+			"_id":"6601025d9fcf9d660cded543"
+		}]
+	},
+	{
+		"nom":"Music of the Spheres World Tour: Lyon",
+		"_id":"ac7b3415-c608-4010-b004-c0609fe21414",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"2024-06-25T00:00:00.000Z",
+			"end":"2024-06-25T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Groupama Stadium",
+			"adresse":"10 Avenue Simone Veil,69150 Décines-Charpieu",
+			"coordinates":{
+				"longitude":4.982128,
+				"latitude":45.765263
+			},
+			"typeareas":"Stadium"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"6601025d9fcf9d660cded586"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"6601025d9fcf9d660cded587"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"6601025d9fcf9d660cded588"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"6601025d9fcf9d660cded589"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"6601025d9fcf9d660cded58a"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602757",
+			"_id":"6601025d9fcf9d660cded58b"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.mymusictaste.com/project/413499340abd11eea9be0a58a9feac02/",
+			"_id":"6601025d9fcf9d660cded58c"
+		},
+		{
+			"type":"Other",
+			"nom":"poster",
+			"url":"https://prodmsamedia.mymusictaste.com/cshopproject/images/3429b1f60f6311eebdec0a58a9feac02.jpeg",
+			"_id":"6601025d9fcf9d660cded58d"
+		},
+		{
+			"type":"db",
+			"nom":"setlistfm",
+			"url":"https://www.setlist.fm/setlist/odd-eye-circle/2023/salle-pleyel-paris-france-2ba450da.html",
+			"_id":"6601025d9fcf9d660cded58e"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602697",
+			"_id":"6601025d9fcf9d660cded58f"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.le-fil.com/concert/arthur-h/",
+			"_id":"6601025d9fcf9d660cded590"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/1029031580",
+			"_id":"6601025d9fcf9d660cded591"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.manufacturechanson.org/concerts/",
+			"_id":"6601025d9fcf9d660cded592"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602445",
+			"_id":"6601025d9fcf9d660cded593"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104949276",
+			"_id":"6601025d9fcf9d660cded594"
+		}]
+	},
+	{
+		"nom":"The Eras Tour: Paris",
+		"_id":"bb61ec21-72e4-49d7-8fce-852d61158f4d",
+		"typeevents":"Concert",
+		"lifeSpan":{
+			"begin":"2024-05-12T00:00:00.000Z",
+			"end":"2024-05-12T00:00:00.000Z",
+			"ended":1
+		},
+		"area":{
+			"nom":"Paris La Défense Arena",
+			"adresse":"99 Jardins de l’Arche,92000 Nanterre",
+			"coordinates":{
+				"longitude":2.230203,
+				"latitude":48.895844
+			},
+			"typeareas":"Stadium"
+		},
+		"urls":[{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://dice.fm/partner/super/event/g85aa",
+			"_id":"6601025d9fcf9d660cded5b8"
+		},
+		{
+			"type":"Other",
+			"nom":"social network",
+			"url":"https://www.facebook.com/events/858914360836628",
+			"_id":"6601025d9fcf9d660cded5b9"
+		},
+		{
+			"type":"db",
+			"nom":"wikidata",
+			"url":"https://www.wikidata.org/wiki/Q116855468",
+			"_id":"6601025d9fcf9d660cded5ba"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://nuits-sonores.com/",
+			"_id":"6601025d9fcf9d660cded5bb"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602689",
+			"_id":"6601025d9fcf9d660cded5bc"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602757",
+			"_id":"6601025d9fcf9d660cded5bd"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.mymusictaste.com/project/413499340abd11eea9be0a58a9feac02/",
+			"_id":"6601025d9fcf9d660cded5be"
+		},
+		{
+			"type":"Other",
+			"nom":"poster",
+			"url":"https://prodmsamedia.mymusictaste.com/cshopproject/images/3429b1f60f6311eebdec0a58a9feac02.jpeg",
+			"_id":"6601025d9fcf9d660cded5bf"
+		},
+		{
+			"type":"db",
+			"nom":"setlistfm",
+			"url":"https://www.setlist.fm/setlist/odd-eye-circle/2023/salle-pleyel-paris-france-2ba450da.html",
+			"_id":"6601025d9fcf9d660cded5c0"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602697",
+			"_id":"6601025d9fcf9d660cded5c1"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.le-fil.com/concert/arthur-h/",
+			"_id":"6601025d9fcf9d660cded5c2"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/1029031580",
+			"_id":"6601025d9fcf9d660cded5c3"
+		},
+		{
+			"type":"Other",
+			"nom":"official homepage",
+			"url":"https://www.manufacturechanson.org/concerts/",
+			"_id":"6601025d9fcf9d660cded5c4"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104602445",
+			"_id":"6601025d9fcf9d660cded5c5"
+		},
+		{
+			"type":"db",
+			"nom":"bandsintown",
+			"url":"https://www.bandsintown.com/e/104949276",
+			"_id":"6601025d9fcf9d660cded5c6"
+		}]
+	}
+]
