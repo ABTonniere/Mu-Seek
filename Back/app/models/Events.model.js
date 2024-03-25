@@ -1,15 +1,33 @@
 module.exports = mongoose => {
-	const Events = mongoose.model(
-		"Events",
-		mongoose.Schema(
-			{
-				title: String,
-				description: String,
-				published: Boolean
+	return mongoose.model('events',
+		mongoose.Schema({
+			nom: String,
+			_id: String,
+			typeevents_id: {
+				type: mongoose.Schema.Types.ObjectId,
+				ref: 'typeevents'
 			},
-			{ timestamps: true }
-		)
+			lifeSpan: {
+				begin: Date,
+				end: Date,
+				ended: Number
+			},
+			area_id: {
+				type: String,
+				ref: 'areas'
+			},
+			verifpays_id: {
+				type: String,
+				ref: 'verifpays'
+			},
+			urls: [{
+				type: {
+					type: String,
+					default: "Other"
+				},
+				nom: String,
+				url: String
+			}]
+		}).set('autoIndex', false)
 	);
-
-	return Events;
 };

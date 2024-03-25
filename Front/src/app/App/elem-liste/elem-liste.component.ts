@@ -1,7 +1,5 @@
 import {Component, Input} from '@angular/core';
 import {animate, state, style, transition, trigger} from "@angular/animations";
-import {OpenstreetmapComponent} from "../openstreetmap/openstreetmap.component";
-import {AnimationService} from "../../services/animation.service";
 import {OpenstreetmapService} from "../../services/openstreetmap.service";
 
 @Component({
@@ -30,13 +28,15 @@ export class ElemListeComponent {
   @Input() type: string = "type de l'événement";
   @Input() genre: string = "genre de l'événement";
   @Input() artiste: string = "artiste de l'événement";
+  @Input() latitude: any;
+  @Input() longitude: any;
 
   affichePlus() {
     this.affichagePlus = !this.affichagePlus;
   }
 
-  pinMap() {
+  pinMap(long: any, lat:any, nom: string) {
     this.mapPin = !this.mapPin;
-    this.openstreetmapService.putPin(10, 0, "zebi");
+    this.openstreetmapService.putPin(long, lat, nom);
   }
 }

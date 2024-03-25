@@ -22,7 +22,14 @@ export class ServerPOSTService {
 		this.list = list;
 	}
 
+	find(req: String){
+		const query:string = `${this.REST_API}/search?req=${req}`;
+		console.log('ServerPOSTService#find#query : ',query);
+		return this.httpClient.get<any[]>(query);
+	}
+
 	GetEvents(longitude:number,latitude:number,reload:boolean) {
+		console.log("che zpas koi mettre");
 		if( reload ){ // Rechargé la liste des événements.
 			// Préparer la nouvelle demande.
 			const query = `${this.REST_API}/get?lon=${longitude}&lat=${latitude}`;
@@ -44,7 +51,7 @@ export class ServerPOSTService {
 					// Affiché les nouveaux pins
 					for( const res of this.lastResult ){
 						console.log(res);
-						this.OSM.putPin(res.area.coordinates.longitude, res.area.coordinates.latitude, res.nom);
+						this.OSM.putPin(res.area.coordinates.latitude, res.area.coordinates.longitude, res.nom);
 					}
 				}
 				// Rafraichire la liste
@@ -58,18 +65,21 @@ export class ServerPOSTService {
 						//res.nom, res.typeevents, res._id, res.lifeSpan.begin, res.lifeSpan.end, res.area.nom, res.area.adresse, res.urls
 						let LstUrls = "";
 						for( const url of res.urls ){
-							LstUrls+= "> " + url + "\n";
+							LstUrls+= url.nom + "\n";
 						}
-						this.list.ajouterElem(
-							"" + res.nom,
-							"" + LstUrls,
-							res.area.nom + " : " + res.area.adresse,
-							res.lifeSpan.begin + " - " + res.lifeSpan.end,
-							"" + res.typeevents,
-							"Genres",
-							"Artistes"
-						);
-
+						if(res.nom != "[concert]"){
+							this.list.ajouterElem(
+								"" + res.nom,
+								"" + LstUrls,
+								res.area.nom + " : " + res.area.adresse,
+								res.area.coordinates.longitude,
+								res.area.coordinates.latitude,
+								new Date(res.lifeSpan.begin).toLocaleDateString() + " - " + new Date(res.lifeSpan.end).toLocaleDateString(),
+								"" + res.typeevents,
+								"Genres",
+								"Artistes"
+							);
+						}
 					}
 				}
 			});
