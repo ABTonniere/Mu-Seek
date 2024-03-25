@@ -26,6 +26,8 @@ module.exports = {
 	 */
 	ajouter: creater.ajouter(model, getter, "name"),
 
+	search: creater.search(model,'nom'),
+
 	/*
 	 * Le modéle de la table manipulé.
 	 */

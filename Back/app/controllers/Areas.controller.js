@@ -116,6 +116,8 @@ module.exports = {
 
 	eventSubscribe:  creater.subscribe(model,'events','événements'),
 
+	search: creater.search(model,'nom'),
+
 	/*
 	 * Le modéle de la table manipulé.
 	 */

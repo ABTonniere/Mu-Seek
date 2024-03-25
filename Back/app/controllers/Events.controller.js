@@ -271,6 +271,8 @@ module.exports = {
 		res.json(systFiltre);
 	},
 
+	search: creater.search(model,'nom'),
+
 	/*
 	 * Le modéle de la table manipulé.
 	 */

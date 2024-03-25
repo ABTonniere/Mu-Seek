@@ -141,5 +141,24 @@ module.exports = {
 				};
 			});
 		}
+	},
+
+	/*
+	 * Cherche tout les objet matchant le pattern
+	 */
+	search: function(model,field){
+		return async function(regex){
+			try{
+				let obj = {};
+				obj[field] = regex;
+				res = await model.find(obj);
+				return res;
+			} catch (err) {
+				throw {
+					message: "Une erreur s'est produite lors de la recherche d'un " + field + " dans la table " + model.modelName,
+					error: err
+				}
+			}
+		};
 	}
 };

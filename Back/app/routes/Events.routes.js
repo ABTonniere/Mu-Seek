@@ -7,7 +7,18 @@ module.exports = (ADRESSE,VIEW) => { const ad = ADRESSE+VIEW; return {
 		controller.getEvents(req.query,res);
 	},
 	search: async(req, res) => {
-		res.json({message: "pas encore implémentrer."});
+		const regex = new RegExp(req.query.req, 'i'); // 'i' pour effectuer une recherche insensible à la casse
+		let obj = {};
+		for( const table of ['Typeevents','Events','Areas'] ){
+			const ctrl = db.getCtrl(table);
+			const ret = await ctrl.search(regex).catch( err => {
+				console.error("Recherche de "+regex+" dans la table "+table+" : ",err);
+			});
+			if( ret ){
+				obj[table] = ret;
+			}
+		}
+		res.json(obj);
 	},
 	filtre: async(req, res) => {
 		controller.setFiltre(req.query,res);
