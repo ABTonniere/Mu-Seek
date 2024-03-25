@@ -78,13 +78,11 @@ export class SearchBarComponent {
 		if (searchValue.trim() === '' || searchValue.trim().length < 3) {
 			event.preventDefault();
 			console.log("Access rejected!");
-			return;
-		}
-		else if(this.playAnimation) {
+		} else {
 			this.search(searchValue);
 			this.animationService.triggerAnimation();
+			console.log("Access granted!");
 		}
-		console.log("Access granted!");
 	}
 
 	triggerAnimation() {
