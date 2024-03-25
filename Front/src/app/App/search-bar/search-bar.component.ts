@@ -91,6 +91,7 @@ export class SearchBarComponent {
   }
 
   search(req: String) {
-    this.server.find(req);
+    //this.server.find(req);
+    this.server.GetEvents(0, 0, true);
   }
 }

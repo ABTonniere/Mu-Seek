@@ -51,7 +51,7 @@ export class ServerPOSTService {
 					// Affiché les nouveaux pins
 					for( const res of this.lastResult ){
 						console.log(res);
-						this.OSM.putPin(res.area.coordinates.longitude, res.area.coordinates.latitude, res.nom);
+						//this.OSM.putPin(res.area.coordinates.longitude, res.area.coordinates.latitude, res.nom);
 					}
 				}
 				// Rafraichire la liste
@@ -72,6 +72,8 @@ export class ServerPOSTService {
 								"" + res.nom,
 								"" + LstUrls,
 								res.area.nom + " : " + res.area.adresse,
+								res.area.coordinates.longitude,
+								res.area.coordinates.latitude,
 								new Date(res.lifeSpan.begin).toLocaleDateString() + " - " + new Date(res.lifeSpan.end).toLocaleDateString(),
 								"" + res.typeevents,
 								"Genres",

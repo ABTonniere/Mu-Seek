@@ -66,6 +66,7 @@ export class OpenstreetmapComponent implements OnInit {
     });
     let marker = L.marker([x, y], { icon: myIcon }).addTo(this.map).openPopup();
     this.markers.addLayer(marker);
+    this.zoomToCoordinate(x, y, 10);
   }
 
   public zoomToCoordinate(latitude: any, longitude: any, zoomLevel: any) {
