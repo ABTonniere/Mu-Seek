@@ -15,7 +15,12 @@ module.exports = (ADRESSE,VIEW) => { const ad = ADRESSE+VIEW; return {
 				console.error("Recherche de "+regex+" dans la table "+table+" : ",err);
 			});
 			if( ret ){
-				obj[table] = ret;
+				lstNom = [];
+				ret.map( elem => {
+					lstNom.push(elem.nom);
+				});
+				console.log(ret);
+				obj[table] = lstNom;
 			}
 		}
 		res.json(obj);
