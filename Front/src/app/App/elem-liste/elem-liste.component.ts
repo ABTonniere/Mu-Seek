@@ -11,7 +11,7 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
     trigger('extend', [
       state('closed', style({ height: '0px', overflow: 'hidden' })),
       state('open', style({ height: '*' })),
-      transition('closed <=> open', [animate('300ms ease-in-out')])
+      transition('closed <=> open', [animate('300ms ease-out')])
     ]),
   ]
 })
