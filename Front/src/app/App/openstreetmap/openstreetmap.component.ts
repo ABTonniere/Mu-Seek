@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { trigger, state, style, animate, transition } from '@angular/animations';
 import * as L from 'leaflet';
 import {AnimationService} from "../../services/animation.service";
+import {OpenstreetmapService} from "../../services/openstreetmap.service";
+import {ServerPOSTService} from "../../services/server-post.service";
 
 @Component({
   selector: 'app-openstreetmap',
@@ -10,7 +12,7 @@ import {AnimationService} from "../../services/animation.service";
   animations: [
     trigger('fadeOut', [
       transition(':leave', [
-        animate('500ms ease-out', style({ opacity: 0 }))
+        animate('0.6s ease-out', style({ opacity: 0 }))
       ]),
     ])
   ]
@@ -21,15 +23,25 @@ export class OpenstreetmapComponent implements OnInit {
   map: any;
   markers: any;
   overlayState = 'void'; // État initial de l'overlay
-
   playAnimation: boolean = true;
 
-  constructor(private animationService: AnimationService) { }
+  constructor(private animationService: AnimationService, private openstreetmapService: OpenstreetmapService, private server: ServerPOSTService) { }
 
   ngOnInit() {
+    this.server.changeMap(this);
+
     this.animationService.animationTriggered.subscribe(() => {
       this.playAnimation = false;
-      console.log("Bien pris");
+      //animation service
+      this.openstreetmapService.clearPins$.subscribe(() => {
+        this.clearPins();
+      });
+
+      // openstreetmap service
+      this.openstreetmapService.placePin$.subscribe(({ x, y, name }) => {
+        this.putPin(x, y, name);
+        this.zoomToCoordinate(x,y,10);
+      });
     });
 
     this.map = L.map('map').setView([48.01845, 0.160852], 13);
@@ -50,10 +62,14 @@ export class OpenstreetmapComponent implements OnInit {
     const myIcon = L.icon({
       iconUrl: 'https://i.imgur.com/vhu2eYZ.png',
       iconSize: [50, 70],
-      iconAnchor: [20, 70],
+      iconAnchor: [25, 70],
     });
     let marker = L.marker([x, y], { icon: myIcon }).addTo(this.map).openPopup();
     this.markers.addLayer(marker);
+  }
+
+  public zoomToCoordinate(latitude: any, longitude: any, zoomLevel: any) {
+    this.map.setView([latitude, longitude], zoomLevel);
   }
 
   public clearPins() {
@@ -61,5 +77,4 @@ export class OpenstreetmapComponent implements OnInit {
     this.markers = L.layerGroup();
     this.markers.addTo(this.map);
   }
-
 }

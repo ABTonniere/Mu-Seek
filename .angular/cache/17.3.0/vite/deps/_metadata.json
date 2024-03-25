@@ -1,0 +1,79 @@
+{
+  "hash": "47faec75",
+  "configHash": "ae837711",
+  "lockfileHash": "3a9f1ac3",
+  "browserHash": "0b0f3c62",
+  "optimized": {
+    "@angular/animations": {
+      "src": "../../../../../node_modules/@angular/animations/fesm2022/animations.mjs",
+      "file": "@angular_animations.js",
+      "fileHash": "55508b86",
+      "needsInterop": false
+    },
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "5353c423",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "b9183e70",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "9b91abab",
+      "needsInterop": false
+    },
+    "@angular/platform-browser/animations/async": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/animations/async.mjs",
+      "file": "@angular_platform-browser_animations_async.js",
+      "fileHash": "5eb5d9d7",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "298a4cd8",
+      "needsInterop": false
+    },
+    "leaflet": {
+      "src": "../../../../../node_modules/leaflet/dist/leaflet-src.js",
+      "file": "leaflet.js",
+      "fileHash": "29ea4068",
+      "needsInterop": true
+    },
+    "rxjs": {
+      "src": "../../../../../node_modules/rxjs/dist/esm5/index.js",
+      "file": "rxjs.js",
+      "fileHash": "1bc75a17",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "browser-NDFTZ2CV": {
+      "file": "browser-NDFTZ2CV.js"
+    },
+    "chunk-R7PCPPHO": {
+      "file": "chunk-R7PCPPHO.js"
+    },
+    "chunk-Q47TVVY7": {
+      "file": "chunk-Q47TVVY7.js"
+    },
+    "chunk-WNNZ24IZ": {
+      "file": "chunk-WNNZ24IZ.js"
+    },
+    "chunk-7BTQNT2P": {
+      "file": "chunk-7BTQNT2P.js"
+    },
+    "chunk-WSA2QMXP": {
+      "file": "chunk-WSA2QMXP.js"
+    },
+    "chunk-WKYGNSYM": {
+      "file": "chunk-WKYGNSYM.js"
+    }
+  }
+}

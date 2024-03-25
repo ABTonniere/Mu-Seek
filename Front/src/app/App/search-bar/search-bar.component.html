@@ -1,8 +1,7 @@
 <body>
-  <!--<div id="title" [@translateOut]="playAnimation ? 'open' : 'closed'"><h1 class="mx-2 my-0 text-uppercase">Mu-Seek</h1></div>-->
-  <div class="title" *ngIf="playAnimation" @fadeOut><h1 class="mx-2 my-0 text-uppercase">Mu-Seek</h1></div>
+  <div class="title" *ngIf="playAnimation" @fadeOut><h1 class="mx-2 text-uppercase">Mu-Seek</h1></div>
   <div class="input-group-newsletter" [@translateTop]="playAnimation ? 'open' : 'closed'">
-    <button (click)="triggerAnimation()" class="btn btn-primary" id="submitButton" type="submit"><i class="fa fa-search fa-2x mb-2 text-white"></i></button>
-    <input class="form-control" id="emailAddress" type="email" placeholder="Entrez une localisation, un évènement, une adresse..." aria-label="Entrez une localisation, un évènement, une adresse..." data-sb-validations="required,email" />
+    <button (click)="preventDefault($event, triggerAnimation, searchBar.value)" class="btn btn-primary" id="submitButton" type="submit"><i class="fa fa-search fa-2x mb-2 text-white"></i></button>
+    <input #searchBar class="form-control" id="searchBar" type="text" placeholder="Entrez une localisation, un évènement, une adresse..." aria-label="Entrez une localisation, un évènement, une adresse..." />
   </div>
 </body>

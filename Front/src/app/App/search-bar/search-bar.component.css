@@ -8019,7 +8019,7 @@ textarea.form-control-lg {
 }
 
 .text-center {
-  margin-bottom: 20px; /* Adjust the margin-bottom as needed */
+  margin-bottom: 20px;
 }
 
 .input-group-newsletter {
@@ -10902,14 +10902,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
   width: 100%;
   height: auto;
   min-height: 35rem;
 }
 
-.title h1,
-.title .h1 {
+.title h1, .title .h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 2.5rem;
   line-height: 2.5rem;
@@ -10919,16 +10917,12 @@ body {
   color: transparent;
   text-shadow: 0 0 4px rgb(250, 157, 78);
 }
+
 .title h2, .title .h2 {
   max-width: 20rem;
   font-size: 1rem;
 }
-@media (min-width: 768px) {
-  .title h1, .title .h1 {
-    font-size: 4rem;
-    line-height: 4rem;
-  }
-}
+
 @media (min-width: 992px) {
   .title {
     padding: 0;
@@ -10938,9 +10932,89 @@ body {
     line-height: 6.5rem;
     letter-spacing: 0.8rem;
   }
-  .titleh2, .title .h2 {
+  .title h2, .title .h2 {
     max-width: 30rem;
     font-size: 1.25rem;
   }
 }
 
+/*
+@media (min-width: 767px) {
+  .title h1, .title .h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+*/
+
+/* Tablettes / téléphones */
+@media only screen and (max-width: 992px) and (min-width: 320px) {
+  .title {
+    margin-top: -10vh;
+  }
+
+  .title h2, .title .h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+
+  .input-group-newsletter {
+    top: 70vh;
+  }
+
+  .input-group-newsletter .form-control{
+    left: 50%;
+    width: 90vw;
+    max-width: 600px;
+  }
+}
+
+/* Mode paysage */
+@media only screen and (max-width: 992px) and (max-height: 450px) {
+  .title {
+    display: initial;
+    justify-content: initial;
+    align-items: initial;
+  }
+
+  .title h1, .title .h1 {
+    font-size: 10vw;
+    line-height: 8vw;
+    letter-spacing: 1vw;
+    white-space: nowrap;
+  }
+
+  .title h2, .title .h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+
+  .input-group-newsletter {
+    top: 70vh;
+  }
+
+  .input-group-newsletter .form-control{
+    left: 50%;
+    width: 90vw;
+    max-width: 600px;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+  .title h1, .title .h1 {
+    margin-top: 20vh;
+    line-height: 6vw;
+    letter-spacing: 1vw;
+    white-space: nowrap;
+  }
+
+  .input-group-newsletter {
+    top: 50vh;
+  }
+
+  .input-group-newsletter .form-control{
+    left: 50%;
+    width: 90vw;
+    max-width: 600px;
+  }
+}

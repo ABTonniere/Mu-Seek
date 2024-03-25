@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {RouterOutlet} from "@angular/router";
 import { AnimationService } from "../../services/animation.service";
 import {animate, state, style, transition, trigger} from "@angular/animations";
+import {ServerPOSTService} from '../../services/server-post.service';
 
 @Component({
   selector: 'app-search-bar',
@@ -41,7 +42,7 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
         animate('0.5s ease-out')
       ]),
       transition('* => open', [
-        animate('0.5s easy-in')
+        animate('0.5s ease-out')
       ]),
     ]),
 
@@ -51,30 +52,43 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
       })),
       state('closed', style({
         top: '0%',
-        transform: 'translate(-100%, 10%)',
+        transform: (window.innerHeight > window.innerWidth) ? 'translate(-45vw, 5vh)': 'translate(-40vw, 5vh)'
       })),
       transition('* => closed', [
-        animate('0.5s ease-out')
+        animate('0.6s ease-out')
       ]),
       transition('* => open', [
-        animate('0.5s easy-in')
+        animate('0.6s ease-out')
       ]),
     ])
   ]
 })
 export class SearchBarComponent {
-  constructor(private animationService: AnimationService) { }
-
   playAnimation: boolean = true;
+
+  constructor(private animationService: AnimationService, private server: ServerPOSTService) { }
 
   ngOnInit() {
     this.animationService.animationTriggered.subscribe(() => {
       this.playAnimation = false;
-      console.log("Bien pris");
     });
   }
 
+  preventDefault(event: Event, callback: Function, searchValue: string) {
+    if (searchValue.trim() === '') {
+      event.preventDefault();
+      console.log("Access rejected!");
+      return;
+    }
+    else if(this.playAnimation) this.animationService.triggerAnimation();
+    console.log("Access granted!");
+  }
+
   triggerAnimation() {
-    this.animationService.triggerAnimation();
+    if(this.playAnimation) this.animationService.triggerAnimation();
+  }
+
+  search() {
+    this.server.GetEvents(0,0,true);
   }
 }

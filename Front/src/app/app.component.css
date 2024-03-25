@@ -5,3 +5,12 @@ app-search-bar {
   left: 50%;
   transform: translate(-50%, -0%);
 }
+
+.overlay-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
