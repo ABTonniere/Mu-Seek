@@ -78,15 +78,16 @@ export class ListeComponent {
   items: any[] = [];
 
   ajouterElem(titre: string, description: string, lieu: string, date: string, type: string, genre: string, artiste: string) {
-    this.items.push({id: this.nbElem++, titre: titre, contenu: contenu});
+    this.items.push({id: this.nbElem++, titre: titre, description, lieu, date, type, genre, artiste});
     // this.items.push({id: this.nbElem++, titre: titre, description: description, lieu: lieu, date: date, type: type, genre: genre, artiste: artiste});
   }
 
   constructor(private animationService: AnimationService, private server: ServerPOSTService){
     // ajout de 50 éléments pour tester le scroll
-    for (let i : number = 0; i < 50; i++) {
+    // TEST
+    /*for (let i : number = 0; i < 50; i++) {
       this.items.push({id: this.nbElem++, titre: "Another World !", description: "Un texte pour dire que c'est pour que ce soit différent de l'autre", lieu: "Quelque part dans le monde mais ailleur que l'autre", date: "Pas au même moment que l'autre"});
-    }
+    }*/
   }
 
   // trigger des animations

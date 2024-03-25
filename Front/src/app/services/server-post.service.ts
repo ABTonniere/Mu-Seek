@@ -1,6 +1,4 @@
 import { Injectable } from '@angular/core';
-import { catchError, map } from 'rxjs/operators';
-import { Observable, throwError } from 'rxjs';
 import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 import {ListeComponent} from "../App/liste/liste.component";
 import {OpenstreetmapComponent} from "../App/openstreetmap/openstreetmap.component";
@@ -56,7 +54,22 @@ export class ServerPOSTService {
 					this.list.clearElem();
 					// Créer les nouveaux éléments
 					for( const res of this.lastResult ){
-						this.list.ajouterElem(res.nom,res);
+						//ajouterElem(titre: string, description: string, lieu: string, date: string, type: string, genre: string, artiste: string)
+						//res.nom, res.typeevents, res._id, res.lifeSpan.begin, res.lifeSpan.end, res.area.nom, res.area.adresse, res.urls
+						let LstUrls = "";
+						for( const url of res.urls ){
+							LstUrls+= "> " + url + "\n";
+						}
+						this.list.ajouterElem(
+							"" + res.nom,
+							"" + LstUrls,
+							res.area.nom + " : " + res.area.adresse,
+							res.lifeSpan.begin + " - " + res.lifeSpan.end,
+							"" + res.typeevents,
+							"Genres",
+							"Artistes"
+						);
+
 					}
 				}
 			});
