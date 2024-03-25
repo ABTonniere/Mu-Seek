@@ -1,6 +1,4 @@
 import {Component, Input} from '@angular/core';
-import {ListeComponent} from "../liste/liste.component";
-import {AnimationService} from "../../services/animation.service";
 import {animate, state, style, transition, trigger} from "@angular/animations";
 
 @Component({
