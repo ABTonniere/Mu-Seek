@@ -47,7 +47,6 @@ p {
   text-decoration-color: #fa9d4e;
 }
 
-
 .toggle-button{
   align-items: center;
   background-clip: padding-box;
@@ -73,7 +72,7 @@ p {
   -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: baseline;
-  width: auto;
+  width: 5vw;
 }
 
 .toggle-button:hover,
