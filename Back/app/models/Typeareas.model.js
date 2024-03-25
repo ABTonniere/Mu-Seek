@@ -1,7 +1,8 @@
 module.exports = mongoose => {
-	return mongoose.model('tests',
+	return mongoose.model('typeareas',
 		mongoose.Schema({
-			message: String
+			nom: String
 		})
 	);
 };
+

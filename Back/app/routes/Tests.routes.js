@@ -1,92 +1,112 @@
-const {express, router, db} = require("./importStandard");
-const controller = db.getViewCtrl('Tests');
+const {express, db} = require("./importStandard");
+const controller = db.getCtrl('Tests');
 
-// Route pour récupérer tous les utilisateurs
-router.get('/hard', async (req, res) => {
-	controller.findHard(req,res);
-});
-router.get('/mongodb', async (req, res) => {
-	controller.findMongo(req,res);
-});
-router.get('/ecrire', async(req, res) => {
-	controller.write(req,res);
-});
-router.get('/ecrireMongo', async(req, res) => {
-	controller.write2({message: "Nouveau message générer automatiquement"},res);
-});
-router.get('/updatetoAuto', async(req, res) => {
-	controller.update(req, res);
-});
-router.get('/removeAuto', async(req, res) => {
-	controller.remove(req, res);
-});
-router.get('/gardeMessage', async(req, res) => {
-	controller.transform(req, res);
-});
-router.get('/api', async(req, res) => {
-	controller.fetchDataFromAPI(req, res);
-});
-const adress = "http://localhost:3080/tests/";
-router.get('/', async (req, res) => {
-	res.json({
-		message: "Ceci est l'accés à quelques test de création d'API et à la gestion de mongoDB.",
-		test:  [
-			{
-				nom: "index",
-				adress: adress,
-				comment: "Affiche cette liste"
-			},
-			{
-				nom: "hard",
-				adress: adress+"hard",
-				comment: "Envoit de donnée coder en dur à l'application.",
-				test: "L'envoit de donnée depuis le controller."
-			},
-			{
-				nom: "find",
-				adress: adress+"mongodb",
-				comment: "Demande de donnée à la base de donnée.",
-				test: "La récéption des données depuis la base de donnée."
-			},
-			{
-				nom: "get",
-				adress: adress+"ecrire?message=Mon%20super%20message",
-				comment: "Récéption de donnée depuis l'application.",
-				test: "La récéption des données d'un client."
-			},
-			{
-				nom: "insert",
-				adress: adress+"ecrireMongo",
-				comment: "Ajoute des données à la base de données.",
-				test: "La sauvegarde de donnée."
-			},
-			{
-				nom: "update",
-				adress: adress+"updatetoAuto",
-				comment: "Transforme tout les 'Nouveau message' en 'Nouveau message généré automatiquement'.",
-				test: "La modification de donnée."
-			},
-			{
-				nom: "delete",
-				adress: adress+"removeAuto",
-				comment: "Supprime tout les 'Nouveau message généré automatiquement'.",
-				test: "La supression de donnée."
-			},
-			{
-				nom: "manipule JSON",
-				adress: adress+"gardeMessage?message=azerty&inutile=ignorer&defaut=optionnel",
-				comment: "Manipule un objet JSON en en créent un nouveau, en filtrant l'ancien, et avec des champs ayant une valeur par défault.",
-				test: "La manipulation de donnée."
-			},
-			{
-				nom: "API",
-				adress: adress+"api",
-				comment: "Fait une demande à l'API musicBrainz.",
-				test: "La demande de donnée à l'API."
-			}
-		]
-	});
-});
+module.exports = (ADRESSE,VIEW) => { const ad = ADRESSE+VIEW; return {
+	// Route pour récupérer tous les utilisateurs
+	hard: controller.findHard,
+	mongodb: controller.findMongo,
+	ecrire: controller.write,
+	updatetoAuto: controller.update,
+	removeAuto: controller.remove,
+	gardeMessage: controller.transform,
+	api: controller.fetchDataFromAPI,
+	aleat: controller.aleat,
 
-module.exports = router;
+	ecrireMongo: async(req, res) => {
+		controller.write2({message: "Nouveau message générer automatiquement"},res);
+	},
+	hello: async(req, res) => {
+		controller.hello("user",res);
+	},
+	getById: async(req, res) => {
+		const input = req.query;
+		res.json({res: await controller.get(input.id)});
+	},
+	getByContenu: async(req, res) => {
+		const input = req.query;
+		res.json({res: await controller.getByName(input.message)});
+	},
+	ajouter: async(req, res) => {
+		const input = req.query;
+		res.json({res: await controller.ajouter({message: input.message})});
+	},
+
+	none: async (req, res) => {
+		res.json({
+			message: "Ceci est l'accés à quelques test de création d'API et à la gestion de mongoDB.",
+			adresses: {
+				index: {
+					adress: ad,
+					comment: "Affiche cette liste"
+				},
+				hard: {
+					adress: ad+"hard",
+					comment: "Envoit de donnée coder en dur à l'application.",
+					test: "L'envoit de donnée depuis le controller."
+				},
+				find: {
+					adress: ad+"mongodb",
+					comment: "Demande de donnée à la base de donnée.",
+					test: "La récéption des données depuis la base de donnée."
+				},
+				get: {
+					adress: ad+"ecrire?message=Mon%20super%20message",
+					comment: "Récéption de donnée depuis l'application.",
+					test: "La récéption des données d'un client."
+				},
+				insert: {
+					adress: ad+"ecrireMongo",
+					comment: "Ajoute des données à la base de données.",
+					test: "La sauvegarde de donnée."
+				},
+				update: {
+					adress: ad+"updatetoAuto",
+					comment: "Transforme tout les 'Nouveau message' en 'Nouveau message généré automatiquement'.",
+					test: "La modification de donnée."
+				},
+				deleted: {
+					adress: ad+"removeAuto",
+					comment: "Supprime tout les 'Nouveau message généré automatiquement'.",
+					test: "La supression de donnée."
+				},
+				json: {
+					adress: ad+"gardeMessage?message=azerty&inutile=ignorer&defaut=optionnel",
+					comment: "Manipule un objet JSON en en créent un nouveau, en filtrant l'ancien, et avec des champs ayant une valeur par défault.",
+					test: "La manipulation de donnée."
+				},
+				api: {
+					adress: ad+"api",
+					comment: "Fait une demande à l'API musicBrainz.",
+					test: "La demande de donnée à l'API."
+				},
+				hello: {
+					adress: ad+"hello",
+					comment: "Dit bonjour et s'auto-block pendant 30 secondes.",
+					test: "Limiter le nombre de requête sur un temps donnée."
+				},
+				createGet: {
+					adress: ad+"getById?id=65ffe1de2946854469c00e7f",
+					comment: "Obtenir un objet en utilisant son ID.",
+					test: "La création d'une fonction par le creater."
+				},
+				createGetBy: {
+					adress: ad+"getByContenu?message=Trouver",
+					comment: "Obtenir un objet en utilisant son contenu.",
+					test: "La création d'une fonction par le creater."
+				},
+				createAdd: {
+					adress: ad+"ajouter?message=Mon%20message%20non%20auto",
+					comment: "Ajouter un message, sans doublon.",
+					test: "La création d'une fonction par le creater."
+				},
+				aleat: {
+					adress: ad+"aleat",
+					comment: "Se relance à des intervalle aléatoire.",
+					test: "Le lancement de fonction à des périodes aléatoire."
+				}
+			},
+			retour: ADRESSE
+		});
+	},
+} };
 

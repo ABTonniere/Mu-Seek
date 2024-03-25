@@ -4,17 +4,20 @@ const mongoose = require("mongoose"); // Importe la base de donnée
 //mongoose.Promise = global.Promise; // Permet les opérations Asynchrone
 
 const db = { // Crée l'objet contenant la base de donnée.
-	views: ['Tests'], // La liste des vues utilisables pour la base de donnée
+	tables: ['Tests','Verifpays','Events'], // La liste des vues utilisables pour la base de donnée
 	mongoose: mongoose, // Le gestionnaire de base de donnée.
 	config: dbConfig, // Obtient les configurations de la base de donnée.
-	getViewModel: function(view) {
+	getModel: function(view) {
 		return require('./models/'+view+'.model.js')(mongoose);
 	},
-	getViewCtrl: function(view) {
+	getCtrl: function(view) {
 		return require('./controllers/'+view+'.controller.js');
 	},
-	getViewRoutes: function(view) {
+	getRoutes: function(view) {
 		return require('./routes/'+view+'.routes.js');
+	},
+	getDescr: function(view) {
+		return require('./descriptions/'+view+'.description.js');
 	},
 };
 
