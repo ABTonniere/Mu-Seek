@@ -23,6 +23,7 @@ export class ServerPOSTService {
 	}
 
 	GetEvents(longitude:number,latitude:number,reload:boolean) {
+		console.log("che zpas koi mettre");
 		if( reload ){ // Rechargé la liste des événements.
 			// Préparer la nouvelle demande.
 			const query = `${this.REST_API}/get?lon=${longitude}&lat=${latitude}`;
@@ -58,18 +59,19 @@ export class ServerPOSTService {
 						//res.nom, res.typeevents, res._id, res.lifeSpan.begin, res.lifeSpan.end, res.area.nom, res.area.adresse, res.urls
 						let LstUrls = "";
 						for( const url of res.urls ){
-							LstUrls+= "> " + url + "\n";
+							LstUrls+= url.nom + "\n";
 						}
-						this.list.ajouterElem(
-							"" + res.nom,
-							"" + LstUrls,
-							res.area.nom + " : " + res.area.adresse,
-							res.lifeSpan.begin + " - " + res.lifeSpan.end,
-							"" + res.typeevents,
-							"Genres",
-							"Artistes"
-						);
-
+						if(res.nom != "[concert]"){
+							this.list.ajouterElem(
+								"" + res.nom,
+								"" + LstUrls,
+								res.area.nom + " : " + res.area.adresse,
+								new Date(res.lifeSpan.begin).toLocaleDateString() + " - " + new Date(res.lifeSpan.end).toLocaleDateString(),
+								"" + res.typeevents,
+								"Genres",
+								"Artistes"
+							);
+						}
 					}
 				}
 			});

@@ -67,7 +67,6 @@ export class SearchBarComponent {
   playAnimation: boolean = true;
 
   constructor(private animationService: AnimationService, private server: ServerPOSTService) { }
-
   ngOnInit() {
     this.animationService.animationTriggered.subscribe(() => {
       this.playAnimation = false;
@@ -80,7 +79,10 @@ export class SearchBarComponent {
       console.log("Access rejected!");
       return;
     }
-    else if(this.playAnimation) this.animationService.triggerAnimation();
+    else if(this.playAnimation) {
+      this.search();
+      this.animationService.triggerAnimation();
+    }
     console.log("Access granted!");
   }
 
