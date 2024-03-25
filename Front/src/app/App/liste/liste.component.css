@@ -1,5 +1,6 @@
 .side-panel {
   position: absolute;
+  justify-content: center;
   top: 0;
   width: 25vw;
   height: 100%;

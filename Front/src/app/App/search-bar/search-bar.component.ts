@@ -74,13 +74,13 @@ export class SearchBarComponent {
   }
 
   preventDefault(event: Event, callback: Function, searchValue: string) {
-    if (searchValue.trim() === '') {
+    if (searchValue.trim() === '' || searchValue.trim().length < 3) {
       event.preventDefault();
       console.log("Access rejected!");
       return;
     }
     else if(this.playAnimation) {
-      this.search();
+      this.search(searchValue);
       this.animationService.triggerAnimation();
     }
     console.log("Access granted!");
@@ -90,7 +90,7 @@ export class SearchBarComponent {
     if(this.playAnimation) this.animationService.triggerAnimation();
   }
 
-  search() {
-    this.server.GetEvents(0,0,true);
+  search(req: String) {
+    this.server.find(req);
   }
 }

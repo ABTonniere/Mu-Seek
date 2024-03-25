@@ -22,6 +22,12 @@ export class ServerPOSTService {
 		this.list = list;
 	}
 
+	find(req: String){
+		const query:string = `${this.REST_API}/search?req=${req}`;
+		console.log('ServerPOSTService#find#query : ',query);
+		return this.httpClient.get<any[]>(query);
+	}
+
 	GetEvents(longitude:number,latitude:number,reload:boolean) {
 		console.log("che zpas koi mettre");
 		if( reload ){ // Rechargé la liste des événements.
