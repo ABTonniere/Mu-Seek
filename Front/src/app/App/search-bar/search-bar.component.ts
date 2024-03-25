@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {RouterOutlet} from "@angular/router";
 import { AnimationService } from "../../services/animation.service";
 import {animate, state, style, transition, trigger} from "@angular/animations";
+import {ServerPOSTService} from '../../services/server-post.service';
 
 @Component({
   selector: 'app-search-bar',
@@ -65,7 +66,7 @@ import {animate, state, style, transition, trigger} from "@angular/animations";
 export class SearchBarComponent {
   playAnimation: boolean = true;
 
-  constructor(private animationService: AnimationService) { }
+  constructor(private animationService: AnimationService, private server: ServerPOSTService) { }
 
   ngOnInit() {
     this.animationService.animationTriggered.subscribe(() => {
@@ -85,5 +86,9 @@ export class SearchBarComponent {
 
   triggerAnimation() {
     if(this.playAnimation) this.animationService.triggerAnimation();
+  }
+
+  search() {
+    this.server.GetEvents(0,0,true);
   }
 }

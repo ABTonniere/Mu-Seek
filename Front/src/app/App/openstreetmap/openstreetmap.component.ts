@@ -3,6 +3,7 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
 import * as L from 'leaflet';
 import {AnimationService} from "../../services/animation.service";
 import {OpenstreetmapService} from "../../services/openstreetmap.service";
+import {ServerPOSTService} from "../../services/server-post.service";
 
 @Component({
   selector: 'app-openstreetmap',
@@ -24,12 +25,13 @@ export class OpenstreetmapComponent implements OnInit {
   overlayState = 'void'; // État initial de l'overlay
   playAnimation: boolean = true;
 
-  constructor(private animationService: AnimationService, private openstreetmapService: OpenstreetmapService) { }
+  constructor(private animationService: AnimationService, private openstreetmapService: OpenstreetmapService, private server: ServerPOSTService) { }
 
   ngOnInit() {
+    this.server.changeMap(this);
+
     this.animationService.animationTriggered.subscribe(() => {
       this.playAnimation = false;
-
       //animation service
       this.openstreetmapService.clearPins$.subscribe(() => {
         this.clearPins();
