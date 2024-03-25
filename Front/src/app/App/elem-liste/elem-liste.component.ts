@@ -37,7 +37,6 @@ export class ElemListeComponent {
 
   pinMap() {
     this.mapPin = !this.mapPin;
-    this.openstreetmapService.clearPins();
     this.openstreetmapService.putPin(10, 0, "zebi");
   }
 }

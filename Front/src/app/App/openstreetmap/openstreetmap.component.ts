@@ -36,8 +36,9 @@ export class OpenstreetmapComponent implements OnInit {
       });
 
       // openstreetmap service
-      this.openstreetmapService.placePin$.subscribe((x, y, name) => {
+      this.openstreetmapService.placePin$.subscribe(({ x, y, name }) => {
         this.putPin(x, y, name);
+        this.zoomToCoordinate(x,y,10);
       });
     });
 
@@ -63,6 +64,10 @@ export class OpenstreetmapComponent implements OnInit {
     });
     let marker = L.marker([x, y], { icon: myIcon }).addTo(this.map).openPopup();
     this.markers.addLayer(marker);
+  }
+
+  public zoomToCoordinate(latitude: any, longitude: any, zoomLevel: any) {
+    this.map.setView([latitude, longitude], zoomLevel);
   }
 
   public clearPins() {
